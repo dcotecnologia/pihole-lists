@@ -2908,6 +2908,7 @@
 0.0.0.0 apicmsdl.loc89.fun
 0.0.0.0 apiproxy.12b99.com
 0.0.0.0 apollobet.com
+0.0.0.0 apostasdanet.com
 0.0.0.0 app.228kbet.com
 0.0.0.0 app.333666.buzz
 0.0.0.0 app.68win.co
@@ -3146,6 +3147,7 @@
 0.0.0.0 betsson37.com
 0.0.0.0 betstar.com.au
 0.0.0.0 betstars.com
+0.0.0.0 betsul.com
 0.0.0.0 betswar.com
 0.0.0.0 bettap.com
 0.0.0.0 bettbet.com
@@ -3234,6 +3236,7 @@
 0.0.0.0 bk8vnd.com
 0.0.0.0 bk8win.top
 0.0.0.0 blancoshrimp.com
+0.0.0.0 blaze-4.com
 0.0.0.0 blog.maxbet.rs
 0.0.0.0 blogcmd368.com
 0.0.0.0 blogf8bet.com
@@ -3287,6 +3290,7 @@
 0.0.0.0 bovada.lv
 0.0.0.0 box2020.oxbetd.com
 0.0.0.0 boylesports.com
+0.0.0.0 brazino777.com
 0.0.0.0 britsbingo.co.uk
 0.0.0.0 browncowbingo.com
 0.0.0.0 brucebetting.com
@@ -3345,6 +3349,7 @@
 0.0.0.0 carbonsports.ag
 0.0.0.0 cardbet.com
 0.0.0.0 caribsports.com
+0.0.0.0 casadeapostas.com
 0.0.0.0 cashier2.188thethao.com
 0.0.0.0 cashiopeia.com
 0.0.0.0 cashmio.com
@@ -8290,6 +8295,7 @@
 0.0.0.0 www.americasbookie.com
 0.0.0.0 www.anonibet.com
 0.0.0.0 www.apollobet.com
+0.0.0.0 www.apostasdanet.com
 0.0.0.0 www.appbk8.com
 0.0.0.0 www.arena-bet.com
 0.0.0.0 www.asianbeta.com
@@ -8456,6 +8462,7 @@
 0.0.0.0 www.betstar.com.au
 0.0.0.0 www.betstars.com
 0.0.0.0 www.betstars.uk
+0.0.0.0 www.betsul.com
 0.0.0.0 www.betswar.com
 0.0.0.0 www.bettap.com
 0.0.0.0 www.bettbet.com
@@ -8538,6 +8545,7 @@
 0.0.0.0 www.botbcasino.com
 0.0.0.0 www.bovada.lv
 0.0.0.0 www.boylesports.com
+0.0.0.0 www.brazino777.com
 0.0.0.0 www.britsbingo.co.uk
 0.0.0.0 www.browncowbingo.com
 0.0.0.0 www.brucebetting.com
@@ -8562,6 +8570,7 @@
 0.0.0.0 www.carbonsports.ag
 0.0.0.0 www.cardbet.com
 0.0.0.0 www.caribsports.com
+0.0.0.0 www.casadeapostas.com
 0.0.0.0 www.cashiopeia.com
 0.0.0.0 www.cashmio.com
 0.0.0.0 www.cashpoint.com
@@ -58581,6 +58590,7 @@
 0.0.0.0 www.photo-angels.biz
 0.0.0.0 www.photo-video-sex-gratuit.blogspot.com
 0.0.0.0 www.photo.voffka.com
+0.0.0.0 www.photoacompanhantes.com
 0.0.0.0 www.photomodels.com.pt
 0.0.0.0 www.photonaturals.com
 0.0.0.0 www.photos-videos-voyeurs.blogspot.com
