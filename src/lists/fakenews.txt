@@ -269,7 +269,6 @@
 0.0.0.0 climatesciencenews.com
 0.0.0.0 clintonreview.com
 0.0.0.0 clivenews.com
-0.0.0.0 cnn.com.de
 0.0.0.0 coachellatoday.com
 0.0.0.0 coalregionnews.com
 0.0.0.0 coastalganews.com
@@ -2191,4 +2190,4 @@
 0.0.0.0 yournewswire.com
 0.0.0.0 youtubecensorship.com
 0.0.0.0 yubasuttertimes.com
-0.0.0.0 zombie.news
+0.0.0.0 zombie.news0.0.0.0 cnn.com.de
