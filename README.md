@@ -9,7 +9,9 @@ Create your own list in an uncomplicated way.
 
 ## Add the list directly in your pi-hole server
 
-<https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/out/hosts.txt>
+<https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+gambling+porn.txt>
+
+That's the most recommended list. You can find all the lists already builded in the out/ folder.
 
 ## Download the latest build
 
@@ -32,7 +34,13 @@ LISTS=porn,ads_malware docker-compose run app
 Leave the variable `LISTS` to get all the hosts builded:
 
 ```sh
-docker-compose run app
+docker-compose run build
+```
+
+To cleanup the lists (removing duplicated entries, etc):
+
+```sh
+docker-compose run cleanup
 ```
 
 ## How to contribute to the project
