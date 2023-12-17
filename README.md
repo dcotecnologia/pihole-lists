@@ -13,6 +13,8 @@ Create your own list in an uncomplicated way.
 
 That's the most recommended list. You can find all the lists already builded in the out/ folder.
 
+<https://github.com/dcotecnologia/pi-hole-lists/tree/master/src/out>
+
 ## Download the latest build
 
 <https://github.com/dcotecnologia/pi-hole-lists/releases>
