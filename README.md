@@ -11,9 +11,41 @@ Create your own list in an uncomplicated way.
 
 <https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+gambling+porn.txt>
 
-That's the most recommended list. You can find all the lists already builded in the out/ folder.
+## Ready-to-use list
 
-<https://github.com/dcotecnologia/pi-hole-lists/tree/master/src/out>
+| List  | Description | Link |
+| ------------- | ------------- | ------------- |
+| Ads + Malware  | The most basic list. Block only the ads and suspicious hosts | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware.txt)  |
+| Fakenews | Hosts focused on spread fakenews | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews.txt)  |
+| Porn | Everything related to pornography | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/porn.txt)  |
+| Social | Block social networks. Not recommended in most of the cases | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/social.txt)  |
+| Gambling | Block stupid gambling websites | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/gambling.txt)  |
+| Ads + Malware + Fakenews + Gambling + Porn  | Recommended bundle | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+gambling+porn.txt)  |
+| Ads + Malware + Fakenews  | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews.txt)  |
+| Ads + Malware + Fakenews + Gambling  | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+gambling.txt)  |
+| Ads + Malware + Fakenews + Gambling + Porn + Social  | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+gambling+porn+social.txt)  |
+| Ads + Malware + Fakenews + Gambling + Social  | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+gambling+social.txt)  |
+| Ads + Malware + Fakenews + Porn  | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+porn.txt)  |
+| Ads + Malware + Fakenews + Porn + Social  | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+porn+social.txt)  |
+| Ads + Malware + Fakenews + Social  | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+social.txt)  |
+| Ads + Malware + Gambling  | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+gambling.txt)  |
+| Ads + Malware + Gambling + Porn | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+gambling+porn.txt)  |
+| Ads + Malware + Gambling + Porn + Social | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+gambling+porn+social.txt)  |
+| Ads + Malware + Gambling + Social | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+gambling+social.txt)  |
+| Ads + Malware + Porn | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+porn.txt)  |
+| Ads + Malware + Porn + Social | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+porn+social.txt)  |
+| Ads + Malware + Social | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+social.txt)  |
+| Fakenews + Gambling | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+gambling.txt)  |
+| Fakenews + Gambling + Porn | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+gambling+porn.txt)  |
+| Fakenews + Gambling + Porn + Social | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+gambling+porn+social.txt)  |
+| Fakenews + Gambling + Social | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+gambling+social.txt)  |
+| Fakenews + Porn | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+porn.txt)  |
+| Fakenews + Porn + Social | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+porn+social.txt)  |
+| Fakenews + Social | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+social.txt)  |
+| Gambling + Porn | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/gambling+porn.txt)  |
+| Gambling + Porn + Social | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/gambling+porn+social.txt)  |
+| Gambling + Social | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/gambling+social.txt)  |
+| Porn + Social | | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/porn+social.txt)  |
 
 ## Download the latest build
 
