@@ -1,0 +1,31 @@
+{
+  "editor.insertSpaces": true,
+  "files.trimTrailingWhitespace": true,
+  "git.ignoreLimitWarning": true,
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.codeActionsOnSave": {
+      "editor.formatOnSave": "explicit",
+      "source.organizeImports": "explicit",
+      "source.unusedImports": "explicit",
+      "source.fixAll": "explicit"
+    },
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.analysis.diagnosticSeverityOverrides": {
+    "reportMissingImports": "none"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.erb": "erb",
+    "*.slim": "slim"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

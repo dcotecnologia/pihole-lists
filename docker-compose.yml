@@ -1,0 +1,17 @@
+version: "3"
+services:
+  app:
+    image: pihole-lists
+    build:
+      context: .
+    stdin_open: true
+    tty: true
+    command:
+      - /bin/bash
+      - -c
+      - |
+        python -m main
+    environment:
+      - LISTS=$LISTS
+    volumes:
+      - ./src:/src:rw
