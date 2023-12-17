@@ -11037,7 +11037,6 @@
 0.0.0.0 area51.to
 0.0.0.0 arenaporno.com
 0.0.0.0 ares.softonic.com.br
-0.0.0.0 ares.softonic.com.br/
 0.0.0.0 aresgalaxy.sourceforge.net
 0.0.0.0 argenteens.blogspot.com
 0.0.0.0 argentias.blogspot.com
@@ -29751,7 +29750,7 @@
 0.0.0.0 mtree.com
 0.0.0.0 mtrpr.com
 0.0.0.0 mtruyen18.com
-0.0.0.0 mu-red.no-ip.info:8090
+0.0.0.0 mu-red.no-ip.info
 0.0.0.0 mu.anwap.tube
 0.0.0.0 muchfuck.com
 0.0.0.0 muchohentai.com
@@ -55092,7 +55091,7 @@
 0.0.0.0 www.msbiggirl.blogspot.com
 0.0.0.0 www.msbrattydesigns.blogspot.com
 0.0.0.0 www.mtree.com
-0.0.0.0 www.mu-red.no-ip.info:8090
+0.0.0.0 www.mu-red.no-ip.info
 0.0.0.0 www.muambeiros.net
 0.0.0.0 www.muchfuck.com
 0.0.0.0 www.muchohentai.com
