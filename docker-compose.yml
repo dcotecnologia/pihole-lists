@@ -10,7 +10,7 @@ services:
       - /bin/bash
       - -c
       - |
-        python -m main
+        python -m build
     environment:
       - LISTS=$LISTS
     volumes:
