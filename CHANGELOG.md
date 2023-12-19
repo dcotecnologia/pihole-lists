@@ -5,6 +5,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.0.2] - 2023-12-18
+
+### Changed
+
+- New hosts blacklisteds
+
+#### Ads
+
+- img-s-msn-com.akamaized.net
+
+#### Gambling
+
+- estrelabet.com
+- q8bet.vip
+
 ## [1.0.1] - 2023-12-17
 
 ### Changed
