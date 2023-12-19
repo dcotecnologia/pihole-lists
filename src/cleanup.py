@@ -1,17 +1,26 @@
 import os
 
-ADLISTS = ["ads_malware", "fakenews", "gambling", "porn", "social"]
-OUTPUT_DIR = "out"
-OUTPUT_FILE = f"{OUTPUT_DIR}/hosts.txt"
-PREFIX_TO_CHECK = "0.0.0.0"
+
+def get_filenames_without_extension(directory):
+    filenames = []
+    for filename in os.listdir(directory):
+        # Check if it's a file (not a directory)
+        if os.path.isfile(os.path.join(directory, filename)):
+            # Split the filename and extension
+            name, extension = os.path.splitext(filename)
+            # Add only the filename without extension to the list
+            filenames.append(name)
+    return filenames
 
 
 def delete_file(file_path):
     if os.path.exists(file_path):
         os.remove(file_path)
 
+
 def check_line_starts_with(line, prefix):
     return line.startswith(prefix)
+
 
 def integrity_message(fname):
     if os.path.exists(fname):
@@ -26,8 +35,14 @@ def selected_lists(input):
         lists = ADLISTS
     return lists
 
+
 def filter_condition(line):
     return check_line_starts_with(line, PREFIX_TO_CHECK)
+
+
+ADLISTS = get_filenames_without_extension("lists")
+PREFIX_TO_CHECK = "0.0.0.0"
+
 
 def main():
     input_lists = os.getenv("LISTS", ADLISTS).split(",")
@@ -36,7 +51,7 @@ def main():
 
     for fname in lists:
         # Open the input file in read mode
-        with open(fname, 'r') as file:
+        with open(fname, "r") as file:
             lines = [line for line in file.readlines() if filter_condition(line)]
 
         # Use a set to keep track of unique lines
@@ -46,7 +61,7 @@ def main():
         delete_file(fname)
 
         # Open the output file in write mode
-        with open(fname, 'w') as file:
+        with open(fname, "w") as file:
             # Write the unique lines back to the file
             file.writelines(unique_lines)
 

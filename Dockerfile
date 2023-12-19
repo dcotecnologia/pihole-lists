@@ -12,12 +12,13 @@ RUN poetry config installer.max-workers 10
 
 FROM base as build-stage
 WORKDIR /src
-ADD ./src/poetry.lock ./src/pyproject.toml ./
+ADD ./poetry.lock ./pyproject.toml ./
 RUN poetry install $(test "$ENVIRONMENT" != "development" && echo "--no-dev") --no-interaction --no-ansi --no-root
 
 FROM base as runner
 WORKDIR /src
 COPY --from=build-stage $PIP_PKGS_PATH $PIP_PKGS_PATH
 ADD ./src/. .version ./
+ADD ./lists/. ./lists
 
-CMD ["python", "-m", "main"]
+CMD ["python", "-m", "cleanup"]

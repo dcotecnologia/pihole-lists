@@ -15,6 +15,7 @@ services:
       - LISTS=$LISTS
     volumes:
       - ./src:/src:rw
+      - ./lists:/src/lists:rw
   cleanup:
     image: pihole-lists
     build:
@@ -30,3 +31,4 @@ services:
       - LISTS=$LISTS
     volumes:
       - ./src:/src:rw
+      - ./lists:/src/lists:rw
