@@ -1670,6 +1670,7 @@
 0.0.0.0 esportsbetting.com
 0.0.0.0 esportscasino.com
 0.0.0.0 estorilsolcasinos.pt
+0.0.0.0 estrelabet.com
 0.0.0.0 etherdice.io
 0.0.0.0 etipos.sk
 0.0.0.0 etopaz.az
@@ -4635,6 +4636,7 @@
 0.0.0.0 purepoker.eu
 0.0.0.0 pzbuk.pl
 0.0.0.0 q0f2a.com
+0.0.0.0 q8bet.vip
 0.0.0.0 qc.789.mobi
 0.0.0.0 qc.789a.club
 0.0.0.0 qc.789b.asia
