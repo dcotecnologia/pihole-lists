@@ -1,44 +1,39 @@
-# Pi-Hole Lists (a.k.a Adlists)
+# Pi-Hole Lists | Adlists
 
-Adlists to complete your pi-hole server.
-Create your own list in an uncomplicated way.
-
-## Requirements
-
-- Docker and docker-compose (optional)
+Simplified Adlists to complete your pi-hole server.
 
 ## Ready-to-use list
 
-| List        | Link                                                                                               |
-| ----------- | -------------------------------------------------------------------------------------------------- |
-| abuse       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/abuse.txt)       |
-| adobe       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/adobe.txt)       |
-| ads         | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/ads.txt)         |
-| ads_malware | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/ads_malware.txt) |
-| amp         | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/amp.txt)         |
-| basic       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/basic.txt)       |
-| crypto      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/crypto.txt)      |
-| dating      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/dating.txt)      |
-| drugs       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/drugs.txt)       |
-| facebook    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/facebook.txt)    |
-| fakenews    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/fakenews.txt)    |
-| fraud       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/fraud.txt)       |
-| gambling    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/gambling.txt)    |
-| phishing    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/phishing.txt)    |
-| piracy      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/piracy.txt)      |
-| porn        | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/porn.txt)        |
-| ransonmware | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/ransonmware.txt) |
-| redirect    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/redirect.txt)    |
-| scam        | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/scam.txt)        |
-| smart-tv    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/smart-tv.txt)    |
-| social      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/social.txt)      |
-| tiktok      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/tiktok.txt)      |
-| torrent     | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/torrent.txt)     |
-| tracking    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/tracking.txt)    |
-| vaping      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/vaping.txt)      |
-| whatsapp    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/whatsapp.txt)    |
-| x           | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/x.txt)           |
-| youtube     | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/youtube.txt)     |
+| List        | Link                                                                                               | Description                                            |
+| ----------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| abuse       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/abuse.txt)       | Lists of sites created to deceive                      |
+| adobe       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/adobe.txt)       | Adobe Telemetry                                        |
+| ads         | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/ads.txt)         | Ad servers / sites                                     |
+| ads_malware | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/ads_malware.txt) | Known sites that host malware                          |
+| amp         | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/amp.txt)         | Block AMP pages with this list                         |
+| basic       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/basic.txt)       | Just a quick basic starter list                        |
+| crypto      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/crypto.txt)      | Crypto / cryptojacking based sites                     |
+| dating      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/dating.txt)      | Known sites about dating                               |
+| drugs       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/drugs.txt)       | RE sites that deal with illegal drugs                  |
+| facebook    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/facebook.txt)    | Block FB and FB related / owned services               |
+| fakenews    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/fakenews.txt)    | Known sites that promote fake news                     |
+| fraud       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/fraud.txt)       | Sites create to fraud                                  |
+| gambling    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/gambling.txt)    | All gambling based site legit and illegal              |
+| phishing    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/phishing.txt)    | Sites created to phish info                            |
+| piracy      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/piracy.txt)      | Knows sites that allow for illegal downloads           |
+| porn        | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/porn.txt)        | Porn or sites that promote porn                        |
+| ransonmware | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/ransonmware.txt) | Known sites that host or contain ransomware            |
+| redirect    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/redirect.txt)    | Sites that redirect your from your intended site       |
+| scam        | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/scam.txt)        | Sites that intend to scam                              |
+| smart-tv    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/smart-tv.txt)    | Smart TV call home and ads                             |
+| social      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/social.txt)      | All the most popular social networks                   |
+| tiktok      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/tiktok.txt)      | Copy and pasted into your device                       |
+| torrent     | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/torrent.txt)     | Torrent directory                                      |
+| tracking    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/tracking.txt)    | Sites dedicated to tracking and gathering visitor info |
+| vaping      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/vaping.txt)      | User requested list that blocks sites promoting vaping |
+| whatsapp    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/whatsapp.txt)    | User requested list that blocks only WhatsApp          |
+| x           | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/x.txt)           | User requested list that blocks only X / Twitter       |
+| youtube     | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/youtube.txt)     | User requested list that blocks only Youtube           |
 
 ## How to generate a compiled list
 
