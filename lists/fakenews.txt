@@ -147,6 +147,7 @@
 0.0.0.0 brainfunction.news
 0.0.0.0 branchguide.com
 0.0.0.0 bransontimes.com
+0.0.0.0 brasil247.com
 0.0.0.0 breakthrough.news
 0.0.0.0 brevardsun.com
 0.0.0.0 bridgeporttimes.com

@@ -908,6 +908,7 @@
 0.0.0.0 betmotion.com
 0.0.0.0 betmyline.com
 0.0.0.0 betn1.com
+0.0.0.0 betnacional.com
 0.0.0.0 betngo.com
 0.0.0.0 betondunhill.com
 0.0.0.0 betonline.ag
@@ -1105,6 +1106,9 @@
 0.0.0.0 bovada.lv
 0.0.0.0 box2020.oxbetd.com
 0.0.0.0 boylesports.com
+0.0.0.0 br.betano.com
+0.0.0.0 br.netbet.com
+0.0.0.0 br.novibet.com
 0.0.0.0 brazino777.com
 0.0.0.0 britsbingo.co.uk
 0.0.0.0 browncowbingo.com
@@ -4277,6 +4281,7 @@
 0.0.0.0 mr.bet
 0.0.0.0 mrewards.w88club.com
 0.0.0.0 mrgreen.com
+0.0.0.0 mrjack.bet
 0.0.0.0 mrjackpotspins.com
 0.0.0.0 mrmega.com
 0.0.0.0 mrmobi.com
@@ -5045,6 +5050,7 @@
 0.0.0.0 sports.magicred.com
 0.0.0.0 sports.partypoker.com
 0.0.0.0 sports.smartlivegaming.com
+0.0.0.0 sports.sportingbet.com
 0.0.0.0 sports.vernons.com
 0.0.0.0 sports.williamhill.com
 0.0.0.0 sports.winner.com
@@ -5949,6 +5955,7 @@
 0.0.0.0 wm88viet.com
 0.0.0.0 wm88vn.com
 0.0.0.0 wo88.ac
+0.0.0.0 world.parimatch.com
 0.0.0.0 worldofsport.co.za
 0.0.0.0 worldsportsbetting.co.za
 0.0.0.0 worldstar.co.ug
@@ -6343,6 +6350,7 @@
 0.0.0.0 www.betrockit.com
 0.0.0.0 www.betrogers.com
 0.0.0.0 www.betroyal.com
+0.0.0.0 www.bets.com.br
 0.0.0.0 www.bets10go.com
 0.0.0.0 www.bets4all.com
 0.0.0.0 www.betsafe.com
@@ -6803,6 +6811,7 @@
 0.0.0.0 www.galacasino.com
 0.0.0.0 www.galaxybetting.com
 0.0.0.0 www.galaxysports.com
+0.0.0.0 www.galera.bet
 0.0.0.0 www.gamblecsgo.com
 0.0.0.0 www.gambling.com
 0.0.0.0 www.gamebai.club
