@@ -27,6 +27,7 @@ Simplified Adlists to complete your pi-hole server.
 | scam        | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/scam.txt)        | Sites that intend to scam                              |
 | smart-tv    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/smart-tv.txt)    | Smart TV call home and ads                             |
 | social      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/social.txt)      | All the most popular social networks                   |
+| telemetry   | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/telemetry.txt)   | Real-time tracking of your data                        |
 | tiktok      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/tiktok.txt)      | Copy and pasted into your device                       |
 | torrent     | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/torrent.txt)     | Torrent directory                                      |
 | tracking    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/tracking.txt)    | Sites dedicated to tracking and gathering visitor info |

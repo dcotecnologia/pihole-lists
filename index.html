@@ -329,196 +329,177 @@ code.hljs {
           </head>
           <body>
             <main>
-        <h1 id="pi-hole-lists-aka-adlists">Pi-Hole Lists (a.k.a Adlists)</h1>
-<p>Adlists to complete your pi-hole server.<br />
-Create your own list in an uncomplicated way.</p>
-<h2 id="requirements">Requirements</h2>
-<ul>
-<li>Docker and docker-compose (optional)</li>
-</ul>
-<h2 id="add-the-list-directly-in-your-pi-hole-server">Add the list directly in your pi-hole server</h2>
-<p><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+gambling+porn.txt">https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+gambling+porn.txt</a></p>
+        <h1 id="pi-hole-lists--adlists">Pi-Hole Lists | Adlists</h1>
+<p>Simplified Adlists to complete your pi-hole server.</p>
 <h2 id="ready-to-use-list">Ready-to-use list</h2>
 <table>
 <thead>
 <tr>
 <th id="list">List</th>
-<th id="description">Description</th>
 <th id="link">Link</th>
+<th id="description">Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Ads + Malware</td>
-<td>The most basic list. Block only the ads and suspicious hosts</td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware.txt">Link</a></td>
+<td>abuse</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/abuse.txt">Link</a></td>
+<td>Lists of sites created to deceive</td>
 </tr>
 <tr>
-<td>Fakenews</td>
-<td>Hosts focused on spread fakenews</td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews.txt">Link</a></td>
+<td>adobe</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/adobe.txt">Link</a></td>
+<td>Adobe Telemetry</td>
 </tr>
 <tr>
-<td>Porn</td>
-<td>Everything related to pornography</td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/porn.txt">Link</a></td>
+<td>ads</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/ads.txt">Link</a></td>
+<td>Ad servers / sites</td>
 </tr>
 <tr>
-<td>Social</td>
-<td>Block social networks. Not recommended in most of the cases</td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/social.txt">Link</a></td>
+<td>ads_malware</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/ads_malware.txt">Link</a></td>
+<td>Known sites that host malware</td>
 </tr>
 <tr>
-<td>Gambling</td>
-<td>Block stupid gambling websites</td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/gambling.txt">Link</a></td>
+<td>amp</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/amp.txt">Link</a></td>
+<td>Block AMP pages with this list</td>
 </tr>
 <tr>
-<td>Ads + Malware + Fakenews + Gambling + Porn</td>
-<td>Recommended bundle</td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+gambling+porn.txt">Link</a></td>
+<td>basic</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/basic.txt">Link</a></td>
+<td>Just a quick basic starter list</td>
 </tr>
 <tr>
-<td>Ads + Malware + Fakenews</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews.txt">Link</a></td>
+<td>crypto</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/crypto.txt">Link</a></td>
+<td>Crypto / cryptojacking based sites</td>
 </tr>
 <tr>
-<td>Ads + Malware + Fakenews + Gambling</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+gambling.txt">Link</a></td>
+<td>dating</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/dating.txt">Link</a></td>
+<td>Known sites about dating</td>
 </tr>
 <tr>
-<td>Ads + Malware + Fakenews + Gambling + Porn + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+gambling+porn+social.txt">Link</a></td>
+<td>drugs</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/drugs.txt">Link</a></td>
+<td>RE sites that deal with illegal drugs</td>
 </tr>
 <tr>
-<td>Ads + Malware + Fakenews + Gambling + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+gambling+social.txt">Link</a></td>
+<td>facebook</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/facebook.txt">Link</a></td>
+<td>Block FB and FB related / owned services</td>
 </tr>
 <tr>
-<td>Ads + Malware + Fakenews + Porn</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+porn.txt">Link</a></td>
+<td>fakenews</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/fakenews.txt">Link</a></td>
+<td>Known sites that promote fake news</td>
 </tr>
 <tr>
-<td>Ads + Malware + Fakenews + Porn + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+porn+social.txt">Link</a></td>
+<td>fraud</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/fraud.txt">Link</a></td>
+<td>Sites create to fraud</td>
 </tr>
 <tr>
-<td>Ads + Malware + Fakenews + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+fakenews+social.txt">Link</a></td>
+<td>gambling</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/gambling.txt">Link</a></td>
+<td>All gambling based site legit and illegal</td>
 </tr>
 <tr>
-<td>Ads + Malware + Gambling</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+gambling.txt">Link</a></td>
+<td>phishing</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/phishing.txt">Link</a></td>
+<td>Sites created to phish info</td>
 </tr>
 <tr>
-<td>Ads + Malware + Gambling + Porn</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+gambling+porn.txt">Link</a></td>
+<td>piracy</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/piracy.txt">Link</a></td>
+<td>Knows sites that allow for illegal downloads</td>
 </tr>
 <tr>
-<td>Ads + Malware + Gambling + Porn + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+gambling+porn+social.txt">Link</a></td>
+<td>porn</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/porn.txt">Link</a></td>
+<td>Porn or sites that promote porn</td>
 </tr>
 <tr>
-<td>Ads + Malware + Gambling + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+gambling+social.txt">Link</a></td>
+<td>ransonmware</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/ransonmware.txt">Link</a></td>
+<td>Known sites that host or contain ransomware</td>
 </tr>
 <tr>
-<td>Ads + Malware + Porn</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+porn.txt">Link</a></td>
+<td>redirect</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/redirect.txt">Link</a></td>
+<td>Sites that redirect your from your intended site</td>
 </tr>
 <tr>
-<td>Ads + Malware + Porn + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+porn+social.txt">Link</a></td>
+<td>scam</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/scam.txt">Link</a></td>
+<td>Sites that intend to scam</td>
 </tr>
 <tr>
-<td>Ads + Malware + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/ads_malware+social.txt">Link</a></td>
+<td>smart-tv</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/smart-tv.txt">Link</a></td>
+<td>Smart TV call home and ads</td>
 </tr>
 <tr>
-<td>Fakenews + Gambling</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+gambling.txt">Link</a></td>
+<td>social</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/social.txt">Link</a></td>
+<td>All the most popular social networks</td>
 </tr>
 <tr>
-<td>Fakenews + Gambling + Porn</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+gambling+porn.txt">Link</a></td>
+<td>telemetry</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/telemetry.txt">Link</a></td>
+<td>Real-time tracking of your data</td>
 </tr>
 <tr>
-<td>Fakenews + Gambling + Porn + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+gambling+porn+social.txt">Link</a></td>
+<td>tiktok</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/tiktok.txt">Link</a></td>
+<td>Copy and pasted into your device</td>
 </tr>
 <tr>
-<td>Fakenews + Gambling + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+gambling+social.txt">Link</a></td>
+<td>torrent</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/torrent.txt">Link</a></td>
+<td>Torrent directory</td>
 </tr>
 <tr>
-<td>Fakenews + Porn</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+porn.txt">Link</a></td>
+<td>tracking</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/tracking.txt">Link</a></td>
+<td>Sites dedicated to tracking and gathering visitor info</td>
 </tr>
 <tr>
-<td>Fakenews + Porn + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+porn+social.txt">Link</a></td>
+<td>vaping</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/vaping.txt">Link</a></td>
+<td>User requested list that blocks sites promoting vaping</td>
 </tr>
 <tr>
-<td>Fakenews + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/fakenews+social.txt">Link</a></td>
+<td>whatsapp</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/whatsapp.txt">Link</a></td>
+<td>User requested list that blocks only WhatsApp</td>
 </tr>
 <tr>
-<td>Gambling + Porn</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/gambling+porn.txt">Link</a></td>
+<td>x</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/x.txt">Link</a></td>
+<td>User requested list that blocks only X / Twitter</td>
 </tr>
 <tr>
-<td>Gambling + Porn + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/gambling+porn+social.txt">Link</a></td>
-</tr>
-<tr>
-<td>Gambling + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/gambling+social.txt">Link</a></td>
-</tr>
-<tr>
-<td>Porn + Social</td>
-<td></td>
-<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/src/out/porn+social.txt">Link</a></td>
+<td>youtube</td>
+<td><a href="https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/youtube.txt">Link</a></td>
+<td>User requested list that blocks only Youtube</td>
 </tr>
 </tbody>
 </table>
-<h2 id="download-the-latest-build">Download the latest build</h2>
-<p><a href="https://github.com/dcotecnologia/pi-hole-lists/releases">https://github.com/dcotecnologia/pi-hole-lists/releases</a></p>
 <h2 id="how-to-generate-a-compiled-list">How to generate a compiled list</h2>
 <p>Create a docker image:</p>
 <pre><code class="hljs sh language-sh">docker-compose build</code></pre>
 <p>Run the program with your preferred lists:</p>
-<pre><code class="hljs sh language-sh">LISTS=porn,ads_malware docker-compose run app</code></pre>
+<pre><code class="hljs sh language-sh">LISTS=porn,ads_malware docker-compose run build</code></pre>
 <p>Leave the variable <code>LISTS</code> to get all the hosts builded:</p>
 <pre><code class="hljs sh language-sh">docker-compose run build</code></pre>
 <p>To cleanup the lists (removing duplicated entries, etc):</p>
 <pre><code class="hljs sh language-sh">docker-compose run cleanup</code></pre>
 <h2 id="how-to-contribute-to-the-project">How to contribute to the project</h2>
 <p>Fork it. Open your own PR with the hosts added and some explanation about why are they being added for us to review. If you are not used to edit these files, just open an issue an we are gonna update ASAP.</p>
-<p><strong>Please do not directly email any committers with questions or problems.</strong>  A community is best served when discussions are held in public.</p>
+<p><strong>Please do not directly email any committers with questions or problems.</strong> A community is best served when discussions are held in public.</p>
 <p>Searching the <a href="https://github.com/dcotecnologia/pi-hole-lists/issues">issues</a> for your problem is also a good idea.</p>
 <h2 id="contributing">Contributing</h2>
 <ul>
@@ -532,6 +513,8 @@ Create your own list in an uncomplicated way.</p>
 </ul>
 <h2 id="license">License</h2>
 <p>Please see <a href="LICENSE">LICENSE</a> for licensing details.</p>
+<h2 id="sources">Sources</h2>
+<p>The main source is <a href="https://github.com/blocklistproject/Lists">Blocklist Project</a>, <a href="https://github.com/blocklistproject/Lists/blob/master/LICENSE">License</a>.</p>
 <h2 id="maintainers">Maintainers</h2>
 <p>Danilo Carolino, <a href="https://github.com/danilogco">@danilogco</a></p>
             </main>

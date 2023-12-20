@@ -5,6 +5,32 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.0.3] - 2023-12-20
+
+### Changed
+
+- New hosts blacklisteds
+
+#### Ads
+
+- tim-ads.com
+
+### Fake news
+
+- brasil247.com
+
+### Gambling
+
+- mrjack.bet
+- br.novibet.com
+- br.betano.com
+- www.bets.com.br
+- www.galera.bet
+- betnacional.com
+- br.netbet.com
+- sports.sportingbet.com
+- world.parimatch.com
+
 ## [1.0.2] - 2023-12-18
 
 ### Changed
