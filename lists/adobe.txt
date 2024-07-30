@@ -1,4 +1,3 @@
-0.0.0.0                                                              #cdn-ffc.oobesaas.adobe.com/*
 0.0.0.0 3dns-1.adobe.com
 0.0.0.0 3dns-2.adobe.com
 0.0.0.0 3dns-3.adobe.com
@@ -50,7 +49,6 @@
 0.0.0.0 adobedtm.com
 0.0.0.0 adobeereg.com
 0.0.0.0 adobeexchange.com
-0.0.0.0 adobeexchange.com/api
 0.0.0.0 adobeid-na1.services.adobe.com
 0.0.0.0 adobeid.services.adobe.com
 0.0.0.0 adobejanus.com
@@ -115,8 +113,8 @@
 0.0.0.0 cc-api-behance.adobe.io
 0.0.0.0 cc-api-cp.adobe.io
 0.0.0.0 cc-api-data.adobe.io
-0.0.0.0 cc-api-image-x.adobe.io/agctosvg
-0.0.0.0 cc-api-image.adobe.io/createagc
+0.0.0.0 cc-api-image-x.adobe.io
+0.0.0.0 cc-api-image.adobe.io
 0.0.0.0 cc-api-sharedproductions-prerelease.adobe.io
 0.0.0.0 cc-api-storage.adobe.io
 0.0.0.0 cc-api-teamprojects-an1.adobe.io
@@ -174,7 +172,6 @@
 0.0.0.0 digicert.com
 0.0.0.0 digitalpublishing.acrobat.com
 0.0.0.0 dnzuu5synxxfk.cloudfront.net
-0.0.0.0 docs.aws.amazon.com/general/latest/gr/
 0.0.0.0 dpm.demdex.net
 0.0.0.0 drm.frame.io
 0.0.0.0 ds-an1.adobe.io
@@ -216,7 +213,7 @@
 0.0.0.0 helpx.adobe.com
 0.0.0.0 hl2rcv.adobe.com
 0.0.0.0 hlrcv.stage.adobe.com
-0.0.0.0 http://armdl.adobe.com/
+0.0.0.0 armdl.adobe.com
 0.0.0.0 ic.adobe.io
 0.0.0.0 ids-proxy.account.adobe.com
 0.0.0.0 illustrator.adobe.com
@@ -233,9 +230,6 @@
 0.0.0.0 landing.adobe.com
 0.0.0.0 lcs-cops.adobe.io
 0.0.0.0 lcs-entitlement.adobe.io
-0.0.0.0 lcs-entitlement.adobe.io/v1/trial
-0.0.0.0 lcs-entitlement.adobe.io/v1/trialadobe.com
-0.0.0.0 lcs-entitlement.adobe.io/v1/user
 0.0.0.0 lcs-robs.adobe.io
 0.0.0.0 lcs-ulecs.adobe.io
 0.0.0.0 libraries.adobe.io
@@ -310,11 +304,8 @@
 0.0.0.0 resources.licenses.adobe.com
 0.0.0.0 s.ftcdn.net
 0.0.0.0 s3-us-west-2.amazonaws.com
-0.0.0.0 s3.amazonaws.com
-0.0.0.0 s3.amazonaws.com/tron-ffc-icons-prod/
 0.0.0.0 scripts.demandbase.com
 0.0.0.0 scss.adobesc.com
-0.0.0.0 sentry.io
 0.0.0.0 server.messaging.adobe.com
 0.0.0.0 services.adobe.com
 0.0.0.0 services.prod.ims.adobejanus.com
@@ -382,7 +373,6 @@
 0.0.0.0 www.adobe.com
 0.0.0.0 www.adobeereg.com
 0.0.0.0 www.adobeexchange.com
-0.0.0.0 www.adobeexchange.com/api
 0.0.0.0 www.adobetag.com
 0.0.0.0 www.everestjs.net
 0.0.0.0 www.googleadservices.com

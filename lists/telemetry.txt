@@ -499,7 +499,7 @@
 0.0.0.0 amazdiusprod.112.2o7.net
 0.0.0.0 amazingairplane.com
 0.0.0.0 amazingcounters.com
-0.0.0.0 amazonaws.com/cdn.aimtell.com/
+0.0.0.0 cdn.aimtell.com
 0.0.0.0 amazonhrhvh.112.2o7.net
 0.0.0.0 amazonhrhvhuat.112.2o7.net
 0.0.0.0 amazonmerchants.122.2o7.net
@@ -3561,7 +3561,6 @@
 0.0.0.0 ilogbox.com
 0.0.0.0 imc2.122.2o7.net
 0.0.0.0 imeem.112.2o7.net
-0.0.0.0 img-prod-cms-rt-microsoft-com
 0.0.0.0 img-s-msn-com.akamaized.net
 0.0.0.0 imhd.io
 0.0.0.0 imiliving.122.2o7.net
@@ -6641,7 +6640,7 @@
 0.0.0.0 tagmngrs.com
 0.0.0.0 tagsrvcs.com
 0.0.0.0 tagstaticx.com
-0.0.0.0 tagtray.com/api
+0.0.0.0 tagtray.com
 0.0.0.0 takingbackjuly.com
 0.0.0.0 talentedsteel.com
 0.0.0.0 tamgrt.com

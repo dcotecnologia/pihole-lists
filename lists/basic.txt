@@ -2054,7 +2054,6 @@
 0.0.0.0 a.ssl.msdk.qq.com
 0.0.0.0 a.stat.xiaomi.com
 0.0.0.0 a.steigenberger.com
-0.0.0.0 a.stro.lo.gy.t.em.r                                                                           #@zytrox.tk
 0.0.0.0 a.t.sieu-viet.com
 0.0.0.0 a.t.webtracker.jp
 0.0.0.0 a.tadd.react2media.com
@@ -11257,7 +11256,6 @@
 0.0.0.0 b.oix.com
 0.0.0.0 b.oix.net
 0.0.0.0 b.publicmobile.ca
-0.0.0.0 b.r.uce.lee.b.es.t                                                                            #@zytrox.tk
 0.0.0.0 b.r10.mopub.com
 0.0.0.0 b.rad.live.com
 0.0.0.0 b.rad.msn.com
@@ -29356,7 +29354,6 @@
 0.0.0.0 i.moras.jp
 0.0.0.0 i.mxplayer.j2inter.com
 0.0.0.0 i.n.jwpltx.com
-0.0.0.0 i.n.t.e.rloca.l.qs.j.y                                                                        #@jfas.top
 0.0.0.0 i.newssuite.sony.net
 0.0.0.0 i.oksg.co
 0.0.0.0 i.onthe.io
@@ -33567,7 +33564,6 @@
 0.0.0.0 l.inmobicdn.net
 0.0.0.0 l.linkpulse.com
 0.0.0.0 l.logly.co.jp
-0.0.0.0 l.oc.atevur.c                                                                                 #@zytrox.tk
 0.0.0.0 l.ohmyad.co
 0.0.0.0 l.onfluencer.net
 0.0.0.0 l.qq.com
@@ -58278,7 +58274,6 @@
 0.0.0.0 qsubmit.com
 0.0.0.0 qto.reprintingstakeholder.com
 0.0.0.0 qtum-token.com
-0.0.0.0 qu.o.t.ev.v.n.r                                                                               #@zytrox.tk
 0.0.0.0 quacksquirrel.com
 0.0.0.0 quad-cleaner.com
 0.0.0.0 quadre.pl
@@ -60305,7 +60300,6 @@
 0.0.0.0 s.go-mpulse.net
 0.0.0.0 s.hdsupplysolutions.com
 0.0.0.0 s.homedy.com
-0.0.0.0 s.hu.d.es.h.d.u.e                                                                             #54.78.16247@46.249.33.79
 0.0.0.0 s.iaudienc.com
 0.0.0.0 s.idio.co
 0.0.0.0 s.innovid.com
@@ -91866,7 +91860,6 @@
 0.0.0.0 yenton.org
 0.0.0.0 yepads.com
 0.0.0.0 yepdigital.adk2x.com
-0.0.0.0 yeq.i.u.j.ia.n                                                                                #.3@zytrox.tk
 0.0.0.0 yes.infowars.com
 0.0.0.0 yes1.feng.com
 0.0.0.0 yesads.com
@@ -92548,7 +92541,6 @@
 0.0.0.0 ziptracker.com
 0.0.0.0 zipzoomfly.122.2o7.net
 0.0.0.0 zisyq.proftools-online.ru
-0.0.0.0 ziyker4gaming                                                                                 #@zytrox.tk
 0.0.0.0 ziyu.net
 0.0.0.0 zj.dcys.ijinshan.com
 0.0.0.0 zj.zeroredirect1.com
