@@ -80,6 +80,7 @@
 0.0.0.0 aps-web.adobe.io
 0.0.0.0 ardownload.adobe.com
 0.0.0.0 ardownload2.adobe.com
+0.0.0.0 armdl.adobe.com
 0.0.0.0 armmf.adobe.com
 0.0.0.0 ars.oobesaas.adobe.com
 0.0.0.0 as.ftcdn.net
@@ -213,7 +214,6 @@
 0.0.0.0 helpx.adobe.com
 0.0.0.0 hl2rcv.adobe.com
 0.0.0.0 hlrcv.stage.adobe.com
-0.0.0.0 armdl.adobe.com
 0.0.0.0 ic.adobe.io
 0.0.0.0 ids-proxy.account.adobe.com
 0.0.0.0 illustrator.adobe.com
@@ -282,11 +282,7 @@
 0.0.0.0 platform-cs.adobe.io
 0.0.0.0 polka.typekit.com
 0.0.0.0 polka.typekit.net
-0.0.0.0 practivate.adobe
 0.0.0.0 practivate.adobe.com
-0.0.0.0 practivate.adobe.ipp
-0.0.0.0 practivate.adobe.newoa
-0.0.0.0 practivate.adobe.ntp
 0.0.0.0 presence-an1.adobe.io
 0.0.0.0 presence-ew1.adobe.io
 0.0.0.0 presence-ue1.adobe.io
@@ -300,7 +296,6 @@
 0.0.0.0 psweb-cd.adobe.io
 0.0.0.0 pubcerts.licenses.adobe.com
 0.0.0.0 public.adobecc.com
-0.0.0.0 rande.html                                                   #s3_region
 0.0.0.0 resources.licenses.adobe.com
 0.0.0.0 s.ftcdn.net
 0.0.0.0 s3-us-west-2.amazonaws.com

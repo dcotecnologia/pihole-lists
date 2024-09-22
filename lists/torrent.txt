@@ -234,7 +234,6 @@
 0.0.0.0 bitgamer.com
 0.0.0.0 bitgate.org
 0.0.0.0 bitgateuniverse.org
-0.0.0.0 bitgoon.combit
 0.0.0.0 bithorlo.hu
 0.0.0.0 bithouse.org
 0.0.0.0 bithouse.us
@@ -754,7 +753,6 @@
 0.0.0.0 geotorrents.com
 0.0.0.0 gerusama.fansub-torrents.com
 0.0.0.0 get.geo.opera.com
-0.0.0.0 getdstudio.cc0.0.0.0 gfxxtra.unblocked.llc
 0.0.0.0 ghost-city.biz
 0.0.0.0 gigatorrents.ws
 0.0.0.0 girlongirltorrents.com
@@ -1035,7 +1033,6 @@
 0.0.0.0 mazysmadhouse.net
 0.0.0.0 mazysnuthouse.org
 0.0.0.0 mb4t.info
-0.0.0.0 md-torrents.ruhome
 0.0.0.0 mdown.org
 0.0.0.0 medbit.ru
 0.0.0.0 media-sharing.com
@@ -1101,7 +1098,6 @@
 0.0.0.0 moviehouse.cc
 0.0.0.0 moviemagnet.unblocked.llc
 0.0.0.0 moviesb4time.biz
-0.0.0.0 moviesb4time.biz.php
 0.0.0.0 moviesdvdr.com
 0.0.0.0 moviesite.hu
 0.0.0.0 moviesmania.info
@@ -1382,7 +1378,6 @@
 0.0.0.0 retracker.hotplug.ru
 0.0.0.0 retracker.krs-ix.ru
 0.0.0.0 retracker.lanta-net.ru
-0.0.0.0 retracker.local
 0.0.0.0 retracker.netbynet.ru
 0.0.0.0 retracker.sevstar.net
 0.0.0.0 retracker.spark-rostov.ru
@@ -1659,7 +1654,6 @@
 0.0.0.0 thetorrentsource.org
 0.0.0.0 thetracker.org
 0.0.0.0 thetradersden.org
-0.0.0.0 thetradersden.org/forums/tracker
 0.0.0.0 thevault.bz
 0.0.0.0 thewtd.com
 0.0.0.0 thexchangerslounge.kicks-ass.net
@@ -1809,7 +1803,6 @@
 0.0.0.0 torrents.io
 0.0.0.0 torrents.lv
 0.0.0.0 torrents.mlydes.org
-0.0.0.0 torrents.nl.tp
 0.0.0.0 torrents.nu
 0.0.0.0 torrents.rally-club.net
 0.0.0.0 torrents.rbgi.net

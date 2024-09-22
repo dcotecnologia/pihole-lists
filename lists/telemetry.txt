@@ -1,7 +1,3 @@
-0.0.0.0 .1.1.1.l80.js
-0.0.0.0 .n.2.1.js
-0.0.0.0 .n.2.1.l50.js
-0.0.0.0 .n.2.1.l60.js
 0.0.0.0 0emm.com
 0.0.0.0 102.112.2o7.net
 0.0.0.0 102.122.2o7.net
@@ -499,7 +495,6 @@
 0.0.0.0 amazdiusprod.112.2o7.net
 0.0.0.0 amazingairplane.com
 0.0.0.0 amazingcounters.com
-0.0.0.0 cdn.aimtell.com
 0.0.0.0 amazonhrhvh.112.2o7.net
 0.0.0.0 amazonhrhvhuat.112.2o7.net
 0.0.0.0 amazonmerchants.122.2o7.net
@@ -1494,6 +1489,7 @@
 0.0.0.0 cdc.112.2o7.net
 0.0.0.0 cdn-net.com
 0.0.0.0 cdn-sitegainer.com
+0.0.0.0 cdn.aimtell.com
 0.0.0.0 cdn.atdmt.com
 0.0.0.0 cdn.content.prod.cms.msn.com
 0.0.0.0 cdn.onenote.net
@@ -4435,7 +4431,6 @@
 0.0.0.0 msnbot-207-46-194-25.search.msn.com
 0.0.0.0 msnbot-207-46-194-33.search.msn.com
 0.0.0.0 msnbot-65-52-108-234.search.msn.com
-0.0.0.0 msnbot-65-52-108-33.search.msn.comments
 0.0.0.0 msnbot-65-55-108-23.search.msn.com
 0.0.0.0 msneshopbase.112.2o7.net
 0.0.0.0 msninvite.112.2o7.net
@@ -6714,7 +6709,6 @@
 0.0.0.0 terrifictooth.com
 0.0.0.0 tescostores.122.2o7.net
 0.0.0.0 test.activity.windows.com
-0.0.0.0 test.vast
 0.0.0.0 testedtouch.com
 0.0.0.0 testin.cn
 0.0.0.0 testingmetriksbre.ru
@@ -7088,7 +7082,6 @@
 0.0.0.0 v20.events.data.microsoft.com
 0.0.0.0 v20.vortex-win.data.microsoft.com
 0.0.0.0 v3cdn.net
-0.0.0.0 v4.windowsupdate
 0.0.0.0 va-endpoint.com
 0.0.0.0 va-pool.2o7.net
 0.0.0.0 valuedopinions.co.uk

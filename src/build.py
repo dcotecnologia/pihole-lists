@@ -3,70 +3,107 @@ from itertools import combinations
 
 
 def get_filenames_without_extension(directory):
-    filenames = []
-    for filename in os.listdir(directory):
-        # Check if it's a file (not a directory)
-        if os.path.isfile(os.path.join(directory, filename)):
-            # Split the filename and extension
-            name, extension = os.path.splitext(filename)
-            # Add only the filename without extension to the list
-            filenames.append(name)
-    return filenames
+    """
+    Retrieves the list of filenames (without extensions) from a given directory.
+
+    Args:
+        directory (str): Path to the directory containing files.
+
+    Returns:
+        list: List of filenames without their extensions.
+    """
+    return [
+        os.path.splitext(filename)[0]
+        for filename in os.listdir(directory)
+        if os.path.isfile(os.path.join(directory, filename))
+    ]
 
 
 ADLISTS = get_filenames_without_extension("lists")
 OUTPUT_DIR = "out"
-OUTPUT_FILE = f"{OUTPUT_DIR}/hosts.txt"
 PREFIX_TO_CHECK = "0.0.0.0"
 
 
 def delete_file(file_path):
+    """
+    Deletes the specified file if it exists.
+
+    Args:
+        file_path (str): Path to the file to be deleted.
+    """
     if os.path.exists(file_path):
         os.remove(file_path)
 
 
-def check_line_starts_with(line, prefix):
-    return line.startswith(prefix)
-
-
 def selected_lists(input):
+    """
+    Filters input lists based on existing filenames (ADLISTS). If no valid input is provided,
+    it returns the default ADLISTS.
+
+    Args:
+        input (list): List of filenames to filter.
+
+    Returns:
+        list: Filtered list of filenames or the default ADLISTS.
+    """
     lists = [item for item in input if item in ADLISTS]
-    if not lists:
-        lists = ADLISTS
-    return lists
+    return lists if lists else ADLISTS
 
 
 def filter_condition(line):
-    return check_line_starts_with(line, PREFIX_TO_CHECK)
+    """
+    Checks if a given line starts with the specified prefix.
+
+    Args:
+        line (str): Line to check.
+
+    Returns:
+        bool: True if the line starts with the PREFIX_TO_CHECK, False otherwise.
+    """
+    return line.startswith(PREFIX_TO_CHECK)
+
+
+def process_combination(combo):
+    """
+    Processes a combination of lists by reading and filtering the lines that start with the
+    given prefix, then writing the unique filtered lines to an output file.
+
+    Args:
+        combo (tuple): A tuple of filenames to combine and process.
+    """
+    combined_lines = set()
+
+    # Process each file in the combination
+    for list_name in combo:
+        list_path = os.path.join("lists", f"{list_name}.txt")
+        with open(list_path, "r") as infile:
+            combined_lines.update(
+                line.strip() for line in infile if filter_condition(line)
+            )
+
+    # Write the filtered, unique lines to the output file
+    output_filename = os.path.join(OUTPUT_DIR, "+".join(combo) + ".txt")
+    with open(output_filename, "w") as outfile:
+        outfile.write("\n".join(sorted(combined_lines)) + "\n")
 
 
 def main():
-    input_lists = os.getenv("LISTS", ADLISTS).split(",")
+    """
+    Main function that orchestrates the process. It reads environment variables for the lists,
+    selects the relevant lists, generates all possible combinations, and processes them.
+    """
+    # Get the lists to process from environment variables or fall back to default
+    input_lists = os.getenv("LISTS", ",".join(ADLISTS)).split(",")
     slc_lists = selected_lists(input_lists)
 
+    # Create the output directory if it doesn't exist
     if not os.path.exists(OUTPUT_DIR):
         os.makedirs(OUTPUT_DIR)
 
+    # Generate combinations of lists and process each combination
     for r in range(1, len(slc_lists) + 1):
         for combo in combinations(slc_lists, r):
-            file_name = "+".join(combo)
-            file_name = OUTPUT_DIR + "/" + file_name + ".txt"
-            with open(file_name, "w+") as outfile:
-                for list in combo:
-                    listname = "lists/" + list + ".txt"
-                    with open(listname, "r") as infile:
-                        current_line = infile.readline().strip()
-                        for line in infile:
-                            if not check_line_starts_with(line, PREFIX_TO_CHECK):
-                                continue
-                            if line.strip() == current_line:
-                                current_line += line.strip()
-                            else:
-                                outfile.write(current_line + "\n")
-                                current_line = line.strip()
-
-                        # Write the last line
-                        outfile.write(current_line + "\n")
+            process_combination(combo)
 
 
 if __name__ == "__main__":

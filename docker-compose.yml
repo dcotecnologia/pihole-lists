@@ -1,34 +1,29 @@
-version: "3"
-services:
+x-common: &common-opts
+  image: pihole-lists
   build:
-    image: pihole-lists
-    build:
-      context: .
-    stdin_open: true
-    tty: true
-    command:
-      - /bin/bash
-      - -c
-      - |
-        python -m build
-    environment:
-      - LISTS=$LISTS
-    volumes:
-      - ./src:/src:rw
-      - ./lists:/src/lists:rw
+    context: .
+  stdin_open: true
+  tty: true
+  environment:
+    - LISTS=$LISTS
+    - CHECK_DOMAIN_DNS=0
+  volumes:
+    - ./src:/src:rw
+    - ./lists:/src/lists:rw
+
+services:
+  #build:
+  #  <<: *common-opts
+  #  command: >
+  #    /bin/bash -c "python -m build"
+
   cleanup:
-    image: pihole-lists
-    build:
-      context: .
-    stdin_open: true
-    tty: true
-    command:
-      - /bin/bash
-      - -c
-      - |
-        python -m cleanup
+    <<: *common-opts
+    command: >
+      /bin/bash -c "python -m cleanup"
     environment:
-      - LISTS=$LISTS
-    volumes:
-      - ./src:/src:rw
-      - ./lists:/src/lists:rw
+      - CHECK_DOMAIN_DNS=0
+  #readme:
+  #  <<: *common-opts
+  #  command: >
+  #    /bin/bash -c "python -m readme_list"

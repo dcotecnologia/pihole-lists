@@ -1,7 +1,10 @@
 BRANCH := $(shell git rev-parse --abbrev-ref HEAD)
+DOCKER_COMPOSE_CMD := docker-compose run
+
+.PHONY: default cleanup
 
 default:
-	docker-compose run build
+	$(DOCKER_COMPOSE_CMD) build
 
 cleanup:
-	docker-compose run cleanup
+	$(DOCKER_COMPOSE_CMD) cleanup

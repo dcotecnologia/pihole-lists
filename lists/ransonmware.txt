@@ -1406,7 +1406,6 @@
 0.0.0.0 real346real.top
 0.0.0.0 remoteunityrety.top
 0.0.0.0 renaulrtcenturytrick.top
-0.0.0.0 res-smartd.info0.0.0.0 rkiywansamtu.top
 0.0.0.0 rolerxunitywsto.top
 0.0.0.0 rootaleyz.top
 0.0.0.0 rowerpovertort.top

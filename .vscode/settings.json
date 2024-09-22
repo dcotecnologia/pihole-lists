@@ -1,7 +1,8 @@
 {
+  "black-formatter.args": ["--config", "app/pyproject.toml"],
   "editor.insertSpaces": true,
+  "editor.foldingImportsByDefault": true,
   "files.trimTrailingWhitespace": true,
-  "git.ignoreLimitWarning": true,
   "[python]": {
     "editor.tabSize": 4,
     "editor.codeActionsOnSave": {
@@ -18,6 +19,10 @@
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "python.analysis.typeCheckingMode": "basic",
+  "python.analysis.autoImportCompletions": true,
+  "isort.check": false,
+  "isort.args": ["--profile", "black"],
   "files.associations": {
     "*.erb": "erb",
     "*.slim": "slim"
