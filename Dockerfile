@@ -1,24 +1,28 @@
-FROM python:3.12 as base
-ARG ENVIRONMENT development
-ENV IN_CONTAINER 1
-ENV PATH $PATH:/src
-ENV POETRY_VIRTUALENVS_CREATE="false"
-ENV PIP_ROOT_USER_ACTION="ignore"
-ENV PIP_PKGS_PATH=/usr/local/lib/python3.12/site-packages
+FROM python:3.12 AS base
+ARG ENVIRONMENT=development
 
-RUN pip install -q --upgrade pip
-RUN pip install poetry ipython
+ENV IN_CONTAINER=1 \
+  PATH=$PATH:/src \
+  POETRY_VIRTUALENVS_CREATE=false \
+  PIP_ROOT_USER_ACTION=ignore \
+  PIP_PKGS_PATH=/usr/local/lib/python3.12/site-packages
+
+RUN pip install -q --upgrade pip poetry ipython
 RUN poetry config installer.max-workers 10
 
-FROM base as build-stage
+FROM base AS build-stage
 WORKDIR /src
 ADD ./poetry.lock ./pyproject.toml ./
+
 RUN poetry install $(test "$ENVIRONMENT" != "development" && echo "--no-dev") --no-interaction --no-ansi --no-root
 
-FROM base as runner
+FROM base AS runner
 WORKDIR /src
+
 COPY --from=build-stage $PIP_PKGS_PATH $PIP_PKGS_PATH
-ADD ./src/. .version ./
-ADD ./lists/. ./lists
+
+ADD ./src/ ./
+ADD ./lists/ ./lists/
+ADD ./.version ./
 
 CMD ["python", "-m", "cleanup"]

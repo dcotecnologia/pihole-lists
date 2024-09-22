@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "pi-hole-lists"
+name = "pihole-lists"
 version = "1.0.0"
 description = "Adlists to complete your pi-hole server"
 authors = ["Danilo Carolino <danilogcarolino@gmail.com>"]
@@ -7,6 +7,10 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.12"
+dnspython = "^2.6.1"
+pyyaml = "^6.0.2"
+coloredlogs = "^15.0.1"
+validators = "^0.34.0"
 
 [build-system]
 requires = ["poetry-core"]

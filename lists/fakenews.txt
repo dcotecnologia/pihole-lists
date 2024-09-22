@@ -2191,4 +2191,3 @@
 0.0.0.0 yournewswire.com
 0.0.0.0 youtubecensorship.com
 0.0.0.0 yubasuttertimes.com
-0.0.0.0 zombie.news0.0.0.0 cnn.com.de

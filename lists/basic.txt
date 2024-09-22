@@ -1219,7 +1219,6 @@
 0.0.0.0 4ur.click
 0.0.0.0 4ureyesonly.com
 0.0.0.0 4w-wrestling.us.intellitxt.com
-0.0.0.0 4w6ylniamu6x7e3a.onion
 0.0.0.0 4webmasters.com
 0.0.0.0 4wheel.de
 0.0.0.0 4wmp.nuggad.net
@@ -1341,7 +1340,6 @@
 0.0.0.0 5finder.com
 0.0.0.0 5fm.985fm.ca
 0.0.0.0 5forex.ru
-0.0.0.0 5frjkvw2w3wv6dnv.onion
 0.0.0.0 5gb-internetu-pakiety.blogspot.com
 0.0.0.0 5gdefensepowder.naturalnews.com
 0.0.0.0 5gl1x9qc.com
@@ -8441,7 +8439,6 @@
 0.0.0.0 altitude-arena.com
 0.0.0.0 altmedia101.com
 0.0.0.0 altrooz.com
-0.0.0.0 alumni.hildred.ibbott                                                                         #@46.249.33.79
 0.0.0.0 alumniconnect.lasalle.edu
 0.0.0.0 alwayscare.starmountlife.com
 0.0.0.0 alwrig84.gamed.hop.clickbank.net
@@ -9185,7 +9182,6 @@
 0.0.0.0 answers-d.openx.net
 0.0.0.0 answers.us.intellitxt.com
 0.0.0.0 answerscloud.com
-0.0.0.0 answerstedhctbek.onion
 0.0.0.0 answerstedhctbek.onion.pet
 0.0.0.0 ant.com
 0.0.0.0 ant.conversive.nl
@@ -13898,7 +13894,6 @@
 0.0.0.0 c.ns.stagingvision.net.daraz.com
 0.0.0.0 c.oix.com
 0.0.0.0 c.oix.net
-0.0.0.0 c.ompact.i.o.np.d.yu                                                                          #@zytrox.tk
 0.0.0.0 c.oooooooooo.ga
 0.0.0.0 c.oracleinfinity.io.edgekey.net
 0.0.0.0 c.pebblemedia.be
@@ -14434,7 +14429,6 @@
 0.0.0.0 castiron.tapthetent.com
 0.0.0.0 castllypay.com
 0.0.0.0 castoola.com
-0.0.0.0 castoola.tv.lan
 0.0.0.0 castplatform.com
 0.0.0.0 casualdatingandyou.com
 0.0.0.0 cat.criteo.com
@@ -23021,7 +23015,6 @@
 0.0.0.0 events.engager.ecbsn.com
 0.0.0.0 events.engageya.com
 0.0.0.0 events.foreseeresults.com
-0.0.0.0 events.gfe.nvidia.com
 0.0.0.0 events.hu.nl
 0.0.0.0 events.iasmembership.org
 0.0.0.0 events.influencemobile.com
@@ -27457,7 +27450,6 @@
 0.0.0.0 googleads.g.doubleclick.net
 0.0.0.0 googleads2.g.doubleclick.net
 0.0.0.0 googleads4.g.doubleclick.net
-0.0.0.0 googleadservices.com
 0.0.0.0 googleailesi.com
 0.0.0.0 googleanalytics.com
 0.0.0.0 googlecm.hit.gemius.pl
@@ -55955,7 +55947,6 @@
 0.0.0.0 pl-saleorder.xyz
 0.0.0.0 pl-saleorders.casa
 0.0.0.0 pl-saleorders.xyz
-0.0.0.0 pl-savecash.clubb
 0.0.0.0 pl-savedeals.xyz
 0.0.0.0 pl-savemoney.xyz
 0.0.0.0 pl-savepost.xyz
@@ -62512,7 +62503,6 @@
 0.0.0.0 setting.adzcore.com
 0.0.0.0 setting.rayjump.com
 0.0.0.0 settings-liverez.com
-0.0.0.0 settings-win.data.microsoft.com
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 settings.luckyorange.net
 0.0.0.0 settingupdate.yourgoodflashupgradingmain.icu
@@ -65202,7 +65192,6 @@
 0.0.0.0 sonata.1.p2l.info
 0.0.0.0 sonatns.sonatrach.dz
 0.0.0.0 songbird.fr
-0.0.0.0 songlytics.net0.0.0.0 songsrsuper.com
 0.0.0.0 sonic-us.supersonicads.com
 0.0.0.0 sonobi.com
 0.0.0.0 sonovivi.com
@@ -69907,7 +69896,6 @@
 0.0.0.0 toqonline.com
 0.0.0.0 tor.redlightcenter.com
 0.0.0.0 torchscor.com
-0.0.0.0 torgatedga35slsu.onion
 0.0.0.0 torgatedga35slsu.onion.pet
 0.0.0.0 torgi.kz
 0.0.0.0 torjackan.info
@@ -72221,7 +72209,6 @@
 0.0.0.0 univide.com
 0.0.0.0 unixbroker.com
 0.0.0.0 unixbw.matchesfashion.com
-0.0.0.0 unk.vver.kiae.rr
 0.0.0.0 unknown.counsellor.gov.cn
 0.0.0.0 unknowntray.com
 0.0.0.0 unless.com
@@ -76906,7 +76893,6 @@
 0.0.0.0 www.batalia-opunkty.eu
 0.0.0.0 www.batmantakhebat.blogspot.com
 0.0.0.0 www.battergo.com
-0.0.0.0 www.bausch.kr-atlas.monaxikoslykos                                                            #@zytrox.tk
 0.0.0.0 www.bavners2.ero-advertising.com
 0.0.0.0 www.baw5tracker.com
 0.0.0.0 www.bazafilm.pl
@@ -80709,7 +80695,6 @@
 0.0.0.0 www.google-analytics.com
 0.0.0.0 www.google-docs.info
 0.0.0.0 www.google-docs.org
-0.0.0.0 www.googleadservices.com
 0.0.0.0 www.googleailesi.com
 0.0.0.0 www.googleoptimize.com
 0.0.0.0 www.googletagmanager.com
@@ -85710,7 +85695,6 @@
 0.0.0.0 www.pl-saleorder.xyz
 0.0.0.0 www.pl-saleorders.casa
 0.0.0.0 www.pl-saleorders.xyz
-0.0.0.0 www.pl-savecash.clubb
 0.0.0.0 www.pl-savedeals.xyz
 0.0.0.0 www.pl-savemoney.xyz
 0.0.0.0 www.pl-savepost.xyz

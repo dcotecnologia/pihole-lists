@@ -181,7 +181,6 @@
 0.0.0.0 a2397.oadz.com
 0.0.0.0 a3.allyes.com
 0.0.0.0 a3.img.static.youmi.net
-0.0.0.0 a37ubfu6nmjxzcff.onion
 0.0.0.0 a751.oadz.com
 0.0.0.0 a777.oadz.com
 0.0.0.0 a814.oadz.com
@@ -788,7 +787,6 @@
 0.0.0.0 analy.qq.com
 0.0.0.0 analytics.ad.daum.net
 0.0.0.0 analytics.atdmt.com
-0.0.0.0 analytics.bl
 0.0.0.0 analytics.blue
 0.0.0.0 analytics.hz.netease.com
 0.0.0.0 analytics.live.com
@@ -1664,7 +1662,6 @@
 0.0.0.0 bcsh.hashhot.com
 0.0.0.0 bct.hashhot.com
 0.0.0.0 bct.pool.mn
-0.0.0.0 bcwfga5ssxh3jrlp.onion
 0.0.0.0 bcx.pool.mn
 0.0.0.0 bcx.thecoin.pw
 0.0.0.0 bcxdjxlassr.bid
@@ -7925,7 +7922,6 @@
 0.0.0.0 jccdpudtb.bid
 0.0.0.0 jcgvmfaby.bid
 0.0.0.0 jciieszytnk.bid
-0.0.0.0 jcmi5n4c3mvgtyt5.onion
 0.0.0.0 jcnoeyqsdfrc.com
 0.0.0.0 jct.maptu.cn
 0.0.0.0 jctszdppy.bid
@@ -8946,7 +8942,6 @@
 0.0.0.0 locize.res.ethfans.org
 0.0.0.0 locjzfoh.com
 0.0.0.0 lock.pool.mn
-0.0.0.0 lockerrwhuaf2jjx.onion
 0.0.0.0 loco.suprnova.cc
 0.0.0.0 lofipgeld.bid
 0.0.0.0 log.collect.yinyuetai.com
@@ -10251,7 +10246,6 @@
 0.0.0.0 mqcnrhxdsbwr.com
 0.0.0.0 mqlkcicnrgpntw.bid
 0.0.0.0 mqmbbiadhb.bid
-0.0.0.0 mqnvhg6lht7lc3nc.onion
 0.0.0.0 mqqad.cs0309.html5.qq.com
 0.0.0.0 mqqad.html5.qq.com
 0.0.0.0 mqqadr.reader.qq.com
@@ -11020,7 +11014,6 @@
 0.0.0.0 nofoxnalt.com
 0.0.0.0 nohsshsxpv.club
 0.0.0.0 nomlxyhfgeny.com
-0.0.0.0 nomoreransom.coin
 0.0.0.0 nomp.coin-miners.info
 0.0.0.0 nomp.freeyy.me
 0.0.0.0 nomp.mastermining.net
@@ -12027,7 +12020,6 @@
 0.0.0.0 phi.na.mine.zpool.ca
 0.0.0.0 phi2.eu.mine.zpool.ca
 0.0.0.0 phi2.na.mine.zpool.ca
-0.0.0.0 phkttm64gbquasaq.onion
 0.0.0.0 phlslvetboouo.bid
 0.0.0.0 phoenixcoin.miningpoolhub.com
 0.0.0.0 phoenixcoin.org
@@ -14475,7 +14467,6 @@
 0.0.0.0 shyyyxjw.com
 0.0.0.0 si.nanopool.org
 0.0.0.0 si.pool.mn
-0.0.0.0 sia-.nanopool.org
 0.0.0.0 sia-asia1.nanopool.org
 0.0.0.0 sia-asia2.nanopool.org
 0.0.0.0 sia-au1.nanopool.org
@@ -22188,7 +22179,6 @@
 0.0.0.0 www.xmr-ue1.nanopool.org
 0.0.0.0 www.xmr-us-east.nanopool.org
 0.0.0.0 www.xmr-useast1.nanopool.org
-0.0.0.0 www.xmr.-eu1.nanopool.org
 0.0.0.0 www.xmr.alpha.nanopool.org
 0.0.0.0 www.xmr.arhash.xyz
 0.0.0.0 www.xmr.btgirl.com.cn
@@ -22727,7 +22717,6 @@
 0.0.0.0 xmr-us.suprnova.cc
 0.0.0.0 xmr-usa.dwarfpool.com
 0.0.0.0 xmr-useast1.nanopool.org
-0.0.0.0 xmr.-eu1.nanopool.org
 0.0.0.0 xmr.101010.pl
 0.0.0.0 xmr.5b6b7b.ru
 0.0.0.0 xmr.alimabi.cn
@@ -23211,9 +23200,7 @@
 0.0.0.0 youle.tom.com
 0.0.0.0 youporn.sexy
 0.0.0.0 yourloganalytics.com
-0.0.0.0 youronionlink.onion
 0.0.0.0 yovbkyylqlmkg.bid
-0.0.0.0 yowl2ugopitfzzwb.onion
 0.0.0.0 yoywgmzjgtfl.com
 0.0.0.0 ypcuhmevrq.bid
 0.0.0.0 ypfghpqnkgbxu.bid
@@ -23452,7 +23439,6 @@
 0.0.0.0 zec-us1.nanopool.org
 0.0.0.0 zec-us2.nanopool.org
 0.0.0.0 zec-west1.nanopool.org
-0.0.0.0 zec.-eu1.nanopool.org
 0.0.0.0 zec.1stpool.com
 0.0.0.0 zec.2miners.com
 0.0.0.0 zec.2miners.ru

@@ -14228,7 +14228,6 @@
 0.0.0.0 log.xzcs3zlph.com.edgesuite.net
 0.0.0.0 log15.byteoversea.com
 0.0.0.0 log16-applog-useast5.us.tiktokv.com
-0.0.0.0 log16-applog-useast5.us.tiktokv.com.localdomain
 0.0.0.0 log16-normal-c-useast1a.tiktokv.com
 0.0.0.0 log16-normal-c-useast1a.tiktokv.com.edgekey.net
 0.0.0.0 log16-normal-c-useast2a.tiktokv.com
@@ -17899,13 +17898,11 @@
 0.0.0.0 pull-cmaf-f16-va01.tiktokcdn.com
 0.0.0.0 pull-cmaf-f16.tiktokcdn.com
 0.0.0.0 pull-cmaf-f16.tiktokcdn.com.akamaized.net
-0.0.0.0 pull-cmaf-f16.tiktokcdn.com.localdomain
 0.0.0.0 pull-cmaf-f5-mus.pstatp.com
 0.0.0.0 pull-cmaf-f5.tiktokcdn.com
 0.0.0.0 pull-cmaf-f5.tiktokcdn.com.akamaized.net
 0.0.0.0 pull-cmaf-f5.tiktokcdn.com.c.worldfcdn.com
 0.0.0.0 pull-cmaf-f77-va01.tiktokcdn.com
-0.0.0.0 pull-cmaf-f77-va01.tiktokcdn.com.localdomain
 0.0.0.0 pull-cmaf-l16-va01.tiktokcdn.com
 0.0.0.0 pull-cmaf-l77-va01.tiktokcdn.com
 0.0.0.0 pull-f3-hs.pstatp.com
@@ -18004,7 +18001,6 @@
 0.0.0.0 pull-hls-q5.tiktokcdn.com.akamaized.net
 0.0.0.0 pull-hls-w16-gcp01.tiktokcdn.com
 0.0.0.0 pull-hls-w16-va01.tiktokcdn.com
-0.0.0.0 pull-hls-w16-va01.tiktokcdn.com.localdomain
 0.0.0.0 pull-hls-w5-va01.tiktokcdn.com
 0.0.0.0 pull-hls-w5.tiktokcdn.com
 0.0.0.0 pull-hls-w5.tiktokcdn.com.akamaized.net

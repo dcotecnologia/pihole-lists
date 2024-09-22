@@ -4255,7 +4255,6 @@
 0.0.0.0 datesofasia.com
 0.0.0.0 dateworld.co
 0.0.0.0 datezie.com
-0.0.0.0 dating
 0.0.0.0 dating--dating.com
 0.0.0.0 dating-a11.datingvip.com
 0.0.0.0 dating-a13.datingvip.com
@@ -14287,7 +14286,6 @@
 0.0.0.0 pressroom.gleeden.com
 0.0.0.0 pretty-asian-ladies.dtmeetingnn.com
 0.0.0.0 prettywomens.today
-0.0.0.0 preview-.stripchat.com
 0.0.0.0 preview-cdn.stripchat.com
 0.0.0.0 preview-eu1.stripchat.com
 0.0.0.0 preview-eu2.stripchat.com

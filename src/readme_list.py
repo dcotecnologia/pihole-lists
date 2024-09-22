@@ -2,21 +2,22 @@ import os
 
 
 def get_filenames_without_extension(directory):
-    filenames = []
-    for filename in os.listdir(directory):
-        # Check if it's a file (not a directory)
-        if os.path.isfile(os.path.join(directory, filename)):
-            # Split the filename and extension
-            name, extension = os.path.splitext(filename)
-            # Add only the filename without extension to the list
-            filenames.append(name)
-    return filenames
+    """
+    Returns a list of filenames (without extensions) from a given directory.
+    """
+    return [
+        os.path.splitext(filename)[0]
+        for filename in os.listdir(directory)
+        if os.path.isfile(os.path.join(directory, filename))
+    ]
 
 
-ADLISTS = get_filenames_without_extension("lists")
+ADLISTS = sorted(get_filenames_without_extension("lists"))
 
-
+# Header for the markdown table
 print("| List  | Description                                                                                  | Link |")
 print("| ----- | -------------------------------------------------------------------------------------------- | ---- |")
-for list in sorted(ADLISTS):
-    print(f"| {list} | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/{list}.txt) |")
+
+# Generate and print each row of the table
+for list_name in ADLISTS:
+    print(f"| {list_name} | [Link](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/{list_name}.txt) |")

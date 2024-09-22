@@ -5141,7 +5141,6 @@
 0.0.0.0 supersportsbook.com
 0.0.0.0 superusacasino.com
 0.0.0.0 surf.casino
-0.0.0.0 susu86.onilne
 0.0.0.0 sv1.sv88.uk
 0.0.0.0 sv1.sv88.vip
 0.0.0.0 sv1.sv88d.com

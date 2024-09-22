@@ -132,3 +132,7 @@ app/.version
 .pytest_cache
 **/node_modules
 package-lock.json
+
+# project
+src/out
+src/log.txt
