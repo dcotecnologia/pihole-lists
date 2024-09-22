@@ -18,7 +18,7 @@ jobs:
           echo "project_version=$(cat .version)" >> $GITHUB_OUTPUT
       - name: Get Changelog Entry
         id: changelog_reader
-        uses: mindsers/changelog-reader-action@v2
+        uses: mindsers/changelog-reader-action@master
         with:
           validation_depth: 10
           version: ${{ steps.vars.outputs.project_version }}
@@ -34,7 +34,7 @@ jobs:
           allowUpdates: true
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Purge old cache
-        uses: MyAlbum/purge-cache@v2
+        uses: MyAlbum/purge-cache@master
         with:
           debug: true # Purge caches by their created time (default)
           max-age: 604800 # Leave only caches accessed in the last 7 days (default)

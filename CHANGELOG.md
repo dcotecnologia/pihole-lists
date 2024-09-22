@@ -5,6 +5,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.1.0] - 2024-09-21
+
+### Changed
+
+- Removed a lot of invalid entries from the lists by @danilogco
+- Some entries added to porn, fakenews, and other lists by @danilogco
+
 ## [1.0.3] - 2023-12-20
 
 ### Changed
