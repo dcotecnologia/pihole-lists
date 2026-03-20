@@ -30,3 +30,9 @@ compile: ## Generate combined output files (optional: LISTS=ads,porn)
 
 readme: ## Print markdown rows for README list table
 	$(UV_CMD) run $(PYTHON_CMD) src/readme_list.py
+
+import:
+	$(UV_CMD) run $(PYTHON_CMD) src/import.py
+
+test:
+	$(UV_CMD) run pytest -s

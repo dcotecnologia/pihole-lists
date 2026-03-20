@@ -29,9 +29,9 @@ def check_line_starts_with(line, prefix):
 def integrity_message(fname):
     """Display a message confirming the existence of a file."""
     if os.path.exists(fname):
-        print(f"Hosts file compiled successfully and available in {fname}")
+        logging.info(f"Hosts file compiled successfully and available in {fname}")
     else:
-        print(f"Hosts file couldn't be compiled: {fname}")
+        logging.error(f"Hosts file couldn't be compiled: {fname}")
 
 
 def selected_lists(input_lists):

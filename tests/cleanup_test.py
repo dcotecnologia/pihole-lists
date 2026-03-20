@@ -35,14 +35,36 @@ def test_check_line_starts_with_and_integrity_message(tmp_path, capsys):
     assert cleanup.check_line_starts_with("abc", "a") is True
     assert cleanup.check_line_starts_with("abc", "z") is False
 
-    existing = tmp_path / "exists.txt"
-    existing.write_text("x", encoding="utf-8")
-    cleanup.integrity_message(str(existing))
-    assert "compiled successfully" in capsys.readouterr().out
+    import logging
+    from io import StringIO
 
-    missing = tmp_path / "missing.txt"
-    cleanup.integrity_message(str(missing))
-    assert "couldn't be compiled" in capsys.readouterr().out
+    log_stream = StringIO()
+    handler = logging.StreamHandler(log_stream)
+    logger = logging.getLogger()
+    logger.setLevel(logging.INFO)
+    # Remove all handlers to avoid duplicate logs
+    for h in logger.handlers[:]:
+        logger.removeHandler(h)
+    logger.addHandler(handler)
+    try:
+        existing = tmp_path / "exists.txt"
+        existing.write_text("x", encoding="utf-8")
+        cleanup.integrity_message(str(existing))
+        handler.flush()
+        log_contents = log_stream.getvalue()
+        assert "compiled successfully" in log_contents
+
+        log_stream.truncate(0)
+        log_stream.seek(0)
+
+        missing = tmp_path / "missing.txt"
+        cleanup.integrity_message(str(missing))
+        handler.flush()
+        log_contents = log_stream.getvalue()
+        assert "couldn't be compiled" in log_contents
+    finally:
+        logger.removeHandler(handler)
+        handler.close()
 
 
 def test_selected_lists_filters_and_fallback(monkeypatch):
