@@ -19275,7 +19275,7 @@
 0.0.0.0 bunted-reason.000webhostapp.com
 0.0.0.0 buntel-maroc.com
 0.0.0.0 buntymendke.com
-0.0.0.0 bunwaejrx.com #issue 44 add request
+0.0.0.0 bunwaejrx.com
 0.0.0.0 bunyonyifoods.com
 0.0.0.0 buonagente.com.br
 0.0.0.0 buond7ljzfxvzak3ka8x.readycarsvans.com
@@ -19966,7 +19966,6 @@
 0.0.0.0 calchain.io
 0.0.0.0 calchimelli.com.br
 0.0.0.0 calcific-moss.000webhostapp.com
-0.0.0.0 calcotsjvila.cat #issue 45 add requeset
 0.0.0.0 calculatedresults.com.au
 0.0.0.0 calcutta.co.kr
 0.0.0.0 calcuttaconnect.ie
@@ -42343,7 +42342,6 @@
 0.0.0.0 globalrecruitment.icu
 0.0.0.0 globalrexib.com
 0.0.0.0 globalrock.com.pk
-0.0.0.0 globalsending.top # issue 31 add request
 0.0.0.0 globalservices123.com
 0.0.0.0 globalshings.tk
 0.0.0.0 globalshippinglinecft.com
@@ -90297,7 +90295,6 @@
 0.0.0.0 sensus.jokam.org
 0.0.0.0 sent.clf.io
 0.0.0.0 sentasp.graimphe.com
-0.0.0.0 sentforyou.com # issue 31 add request
 0.0.0.0 sentidoarquitetura.com.br
 0.0.0.0 sentienz.com
 0.0.0.0 sentierconsulting.co.in
