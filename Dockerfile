@@ -1,11 +1,11 @@
-FROM python:3.12 AS base
+FROM python:3.14 AS base
 ARG ENVIRONMENT=development
 
 ENV IN_CONTAINER=1 \
   PATH=$PATH:/src \
   UV_PROJECT_ENVIRONMENT=/usr/local \
   PIP_ROOT_USER_ACTION=ignore \
-  PIP_PKGS_PATH=/usr/local/lib/python3.12/site-packages
+  PIP_PKGS_PATH=/usr/local/lib/python3.14/site-packages
 
 RUN pip install -q --upgrade pip uv ipython
 

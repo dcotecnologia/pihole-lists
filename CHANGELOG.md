@@ -5,6 +5,24 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-03-20
+
+### Added
+
+- Added new domains to blocklists, including updates to gambling, fake news, drugs, porn, telemetry, and ransomware lists.
+- Added a GitHub Actions workflow for automated test runs.
+- Added unit test coverage for build and cleanup scripts.
+- Added CONTRIBUTING, CODE_OF_CONDUCT, and SECURITY documentation.
+
+### Changed
+
+- Migrated project dependency management from Poetry to uv.
+- Improved filtering, domain normalization, extraction, and validation logic in list processing scripts.
+- Removed deprecated SDK entries from ad lists.
+- Removed issue reference artifacts from phishing and scam list entries.
+- Applied lint and formatting refactors across the codebase.
+- Updated issue templates.
+
 ## [1.1.0] - 2024-09-21
 
 ### Changed
