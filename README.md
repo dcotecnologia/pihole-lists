@@ -1,5 +1,7 @@
 # Pi-Hole Lists | Adlists
 
+[![Tests](https://github.com/dcotecnologia/pihole-lists/actions/workflows/tests.yml/badge.svg)](https://github.com/dcotecnologia/pihole-lists/actions/workflows/tests.yml)
+
 Simplified Adlists to complete your pi-hole server.
 
 ## Ready-to-use list
