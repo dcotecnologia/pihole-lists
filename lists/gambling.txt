@@ -834,7 +834,11 @@
 0.0.0.0 betamerica.com
 0.0.0.0 betandclick.com
 0.0.0.0 betano.bg
+0.0.0.0 betano.ca
+0.0.0.0 betano.com
 0.0.0.0 betano.cz
+0.0.0.0 betano.de
+0.0.0.0 betano.ng
 0.0.0.0 betano.pt
 0.0.0.0 betanysports.eu
 0.0.0.0 betbanh88.com
@@ -867,6 +871,10 @@
 0.0.0.0 betezy.com.au
 0.0.0.0 betfair.com
 0.0.0.0 betfair.com.au
+0.0.0.0 betfair.es
+0.0.0.0 betfair.it
+0.0.0.0 betfair.ro
+0.0.0.0 betfair.se
 0.0.0.0 betfan.pl
 0.0.0.0 betfinal.com
 0.0.0.0 betfirst-en.dhnet.be
@@ -985,10 +993,23 @@
 0.0.0.0 betvisa.com
 0.0.0.0 betvnd.cc
 0.0.0.0 betvnd.vip
+0.0.0.0 betway.ar
+0.0.0.0 betway.be
 0.0.0.0 betway.bg
 0.0.0.0 betway.co.ke
 0.0.0.0 betway.com
+0.0.0.0 betway.de
+0.0.0.0 betway.es
+0.0.0.0 betway.gh
+0.0.0.0 betway.lt
+0.0.0.0 betway.mx
+0.0.0.0 betway.ng
+0.0.0.0 betway.pl
 0.0.0.0 betway.pt
+0.0.0.0 betway.se
+0.0.0.0 betway.za
+0.0.0.0 betwaygroup.com
+0.0.0.0 betwaysatta.com
 0.0.0.0 betwayvietnam88.com
 0.0.0.0 betwinner.ng
 0.0.0.0 betworks.com
@@ -1190,7 +1211,6 @@
 0.0.0.0 casinoandfriends.com
 0.0.0.0 casinobg.info
 0.0.0.0 casinobitco.in
-0.0.0.0 casinobitco.in                         # sportsbook
 0.0.0.0 casinocalzone.com
 0.0.0.0 casinocruise.com
 0.0.0.0 casinoeuro.com
@@ -5593,6 +5613,7 @@
 0.0.0.0 videoslots.com
 0.0.0.0 vierklee.com
 0.0.0.0 vietbet.eu
+0.0.0.0 vietnambetway88.com
 0.0.0.0 vietvwin.com
 0.0.0.0 vig.vietbet.eu
 0.0.0.0 vikingslots.com
