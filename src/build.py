@@ -16,6 +16,7 @@ def get_filenames_without_extension(directory):
 
 
 ADLISTS = get_filenames_without_extension("lists")
+ADLISTS_SET = set(ADLISTS)
 OUTPUT_DIR = "out"
 PREFIX_TO_CHECK = "0.0.0.0"
 
@@ -30,18 +31,18 @@ def delete_file(file_path):
         os.remove(file_path)
 
 
-def selected_lists(input):
+def selected_lists(input_lists):
     """Filters input lists based on existing filenames (ADLISTS).
 
     If no valid input is provided, it returns the default ADLISTS.
 
     Args:
-        input (list): List of filenames to filter.
+        input_lists (list): List of filenames to filter.
 
     Returns:
         list: Filtered list of filenames or the default ADLISTS.
     """
-    lists = [item for item in input if item in ADLISTS]
+    lists = [item for item in input_lists if item in ADLISTS_SET]
     return lists if lists else ADLISTS
 
 
@@ -57,25 +58,19 @@ def filter_condition(line):
     return line.startswith(PREFIX_TO_CHECK)
 
 
-def process_combination(combo):
-    """Processes a combination of lists by reading and filtering the lines that
-    start with the given prefix, then writing the unique filtered lines to an
-    output file.
+def load_filtered_lines(list_name):
+    """Load and filter a list file once to avoid repeated disk reads."""
+    list_path = os.path.join("lists", f"{list_name}.txt")
+    with open(list_path, encoding="utf-8") as infile:
+        return {line.strip() for line in infile if filter_condition(line)}
 
-    Args:
-        combo (tuple): A tuple of filenames to combine and process.
-    """
-    combined_lines = set()
 
-    # Process each file in the combination
-    for list_name in combo:
-        list_path = os.path.join("lists", f"{list_name}.txt")
-        with open(list_path) as infile:
-            combined_lines.update(line.strip() for line in infile if filter_condition(line))
+def process_combination(combo, lines_by_list):
+    """Write one output file for the given list combination."""
+    combined_lines = set().union(*(lines_by_list[list_name] for list_name in combo))
 
-    # Write the filtered, unique lines to the output file
     output_filename = os.path.join(OUTPUT_DIR, "+".join(combo) + ".txt")
-    with open(output_filename, "w") as outfile:
+    with open(output_filename, "w", encoding="utf-8") as outfile:
         outfile.write("\n".join(sorted(combined_lines)) + "\n")
 
 
@@ -86,8 +81,11 @@ def main():
     lists, generates all possible combinations, and processes them.
     """
     # Get the lists to process from environment variables or fall back to default
-    input_lists = os.getenv("LISTS", ",".join(ADLISTS)).split(",")
+    input_lists = [item.strip() for item in os.getenv("LISTS", ",".join(ADLISTS)).split(",") if item.strip()]
     slc_lists = selected_lists(input_lists)
+
+    # Read each selected list only once and reuse across all combinations.
+    lines_by_list = {list_name: load_filtered_lines(list_name) for list_name in slc_lists}
 
     # Create the output directory if it doesn't exist
     if not os.path.exists(OUTPUT_DIR):
@@ -96,7 +94,7 @@ def main():
     # Generate combinations of lists and process each combination
     for r in range(1, len(slc_lists) + 1):
         for combo in combinations(slc_lists, r):
-            process_combination(combo)
+            process_combination(combo, lines_by_list)
 
 
 if __name__ == "__main__":
