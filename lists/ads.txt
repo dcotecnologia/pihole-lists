@@ -412334,8 +412334,6 @@
 0.0.0.0 sdk.smartclip.net
 0.0.0.0 sdk.smartlook.com
 0.0.0.0 sdk.snapkit.com
-0.0.0.0 sdk.split.io
-0.0.0.0 sdk.split.io.domain.name
 0.0.0.0 sdk.stage.smartclip.net
 0.0.0.0 sdk.staging.privacy-center.org
 0.0.0.0 sdk.starbolt.io
