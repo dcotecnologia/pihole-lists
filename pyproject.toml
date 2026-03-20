@@ -1,20 +1,24 @@
-[tool.poetry]
+[project]
 name = "pihole-lists"
 version = "1.0.0"
 description = "Adlists to complete your pi-hole server"
-authors = ["Danilo Carolino <danilogcarolino@gmail.com>"]
-license = "MIT"
+authors = [{ name = "Danilo Carolino", email = "danilogcarolino@gmail.com" }]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+	"coloredlogs>=15.0.1,<16.0.0",
+	"dnspython>=2.8.0,<3.0.0",
+	"pyyaml>=6.0.3,<7.0.0",
+	"validators>=0.35.0,<0.36.0",
+]
 
-[tool.poetry.dependencies]
-python = "^3.12"
-dnspython = "^2.6.1"
-pyyaml = "^6.0.2"
-coloredlogs = "^15.0.1"
-validators = "^0.34.0"
+[tool.uv]
+package = false
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [tool.isort]
 multi_line_output = 3
@@ -44,3 +48,21 @@ ignore_missing_imports = true
 warn_unused_ignores = true
 warn_redundant_casts = true
 warn_unused_configs = true
+
+[tool.ruff]
+line-length = 160
+target-version = "py314"
+exclude = ["common/core/db/migrations"]
+
+[tool.ruff.lint]
+select = ["E", "F", "B", "I", "UP"]
+ignore = ["E712"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["app", "common", "easetrack"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"

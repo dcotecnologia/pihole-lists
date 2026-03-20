@@ -23,6 +23,9 @@ services:
       /bin/bash -c "python -m cleanup"
     environment:
       - CHECK_DOMAIN_DNS=0
+    volumes:
+      - ./src:/src:rw,delegated
+      - ./lists:/src/lists:rw,delegated
   #readme:
   #  <<: *common-opts
   #  command: >
