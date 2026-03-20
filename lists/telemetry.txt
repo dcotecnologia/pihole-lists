@@ -1602,6 +1602,7 @@
 0.0.0.0 cedexis.com
 0.0.0.0 celebros-analytics.com
 0.0.0.0 celebrus.com
+0.0.0.0 cell-0.us-east-1.prod.telemetry.console.api.aws
 0.0.0.0 cengagecsinfosec.112.2o7.net
 0.0.0.0 center.io
 0.0.0.0 central1creditunion.112.2o7.net
@@ -1877,6 +1878,7 @@
 0.0.0.0 coordinatedbedroom.com
 0.0.0.0 coordinatedcoat.com
 0.0.0.0 coordinatedcub.com
+0.0.0.0 copilot-telemetry.githubusercontent.com
 0.0.0.0 copperchickens.com
 0.0.0.0 copperegg.com
 0.0.0.0 copush.com
@@ -6502,7 +6504,6 @@
 0.0.0.0 stippleit.com
 0.0.0.0 stockingsneeze.com
 0.0.0.0 stonecalcom.com
-0.0.0.0 store-images.s-microsoft.com
 0.0.0.0 storecatalogrevocation.storequality.microsoft.com
 0.0.0.0 storescissors.com
 0.0.0.0 storeslope.com
@@ -6681,6 +6682,8 @@
 0.0.0.0 telemetry-dce.gfe.nvidia.com
 0.0.0.0 telemetry.appex.bing.net
 0.0.0.0 telemetry.appex.search.prod.ms.akadns.net
+0.0.0.0 telemetry.console.api.aws
+0.0.0.0 telemetry.individual.githubcopilot.com
 0.0.0.0 telemetry.microsoft.com
 0.0.0.0 telemetry.remoteapp.windowsazure.com
 0.0.0.0 telemetry.urs.microsoft.com
@@ -7353,6 +7356,7 @@
 0.0.0.0 wemfbox.ch
 0.0.0.0 wes.df.telemetry.microsoft.com
 0.0.0.0 westernunionglobal.112.2o7.net
+0.0.0.0 westus-0.in.applicationinsights.azure.com
 0.0.0.0 westwickfarrow.122.2o7.net
 0.0.0.0 weus2watcab01.blob.core.windows.net
 0.0.0.0 weus2watcab02.blob.core.windows.net
