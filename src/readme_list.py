@@ -2,8 +2,7 @@ import os
 
 
 def get_filenames_without_extension(directory):
-    """Returns a list of filenames (without extensions) from a given
-    directory."""
+    """Returns a list of filenames (without extensions) from a given directory."""
     return [os.path.splitext(filename)[0] for filename in os.listdir(directory) if os.path.isfile(os.path.join(directory, filename))]
 
 

@@ -3,8 +3,7 @@ from itertools import combinations
 
 
 def get_filenames_without_extension(directory):
-    """Retrieves the list of filenames (without extensions) from a given
-    directory.
+    """Retrieves the list of filenames (without extensions) from a given directory.
 
     Args:
         directory (str): Path to the directory containing files.
@@ -77,8 +76,8 @@ def process_combination(combo, lines_by_list):
 def main():
     """Main function that orchestrates the process.
 
-    It reads environment variables for the lists, selects the relevant
-    lists, generates all possible combinations, and processes them.
+    It reads environment variables for the lists, selects the relevant lists, generates
+    all possible combinations, and processes them.
     """
     # Get the lists to process from environment variables or fall back to default
     input_lists = [item.strip() for item in os.getenv("LISTS", ",".join(ADLISTS)).split(",") if item.strip()]

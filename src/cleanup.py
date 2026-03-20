@@ -35,8 +35,7 @@ def integrity_message(fname):
 
 
 def selected_lists(input_lists):
-    """Return a list of valid lists from the input or use the default
-    ADLISTS."""
+    """Return a list of valid lists from the input or use the default ADLISTS."""
     lists = [item for item in input_lists if item in ADLISTS_SET]
     return lists if lists else ADLISTS
 
@@ -58,11 +57,11 @@ def is_valid_domain_or_ip(value):
         if CHECK_DOMAIN_DNS:
             try:
                 dns.resolver.resolve(value, "A")
-            except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.exception.Timeout):
+            except dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.exception.Timeout:
                 return False
 
         return True
-    except (dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.exception.Timeout):
+    except dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.exception.Timeout:
         return False
     except dns.resolver.NoNameservers:
         logging.error(f"No nameservers available for domain: {value}")
@@ -99,8 +98,8 @@ def get_max_dns_workers():
 
 
 def process_file(input_file, prefix, log_file):
-    """Process the file, filtering lines by the given prefix and removing
-    duplicates, only if domains are valid."""
+    """Process the file, filtering lines by the given prefix and removing duplicates,
+    only if domains are valid."""
     unique_lines = set()
     domain_to_lines = {}
     valid_domains = set()
