@@ -1,5 +1,5 @@
 {
-  "dependencies": {
-    "github-readme-to-html": "^1.0.9"
-  }
+    "dependencies": {
+        "github-readme-to-html": "^1.0.9"
+    }
 }

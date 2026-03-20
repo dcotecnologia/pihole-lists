@@ -5,7 +5,7 @@
 If you discover a security vulnerability in this project, please report it as soon as possible. We take security seriously and appreciate your help in keeping our project safe.
 
 1. **Do not open a public issue**: Please do not disclose the vulnerability publicly until it has been addressed.
-   
+
 2. **Email Us**: Send a detailed description of the vulnerability to [dgocarolino@gmail.com]. Include as much information as possible, such as:
    - Steps to reproduce the vulnerability
    - The impact of the vulnerability

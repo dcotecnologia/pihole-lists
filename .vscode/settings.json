@@ -1,36 +1,42 @@
 {
-  "black-formatter.args": ["--config", "app/pyproject.toml"],
-  "editor.insertSpaces": true,
-  "editor.foldingImportsByDefault": true,
-  "files.trimTrailingWhitespace": true,
-  "[python]": {
-    "editor.tabSize": 4,
-    "editor.codeActionsOnSave": {
-      "editor.formatOnSave": "explicit",
-      "source.organizeImports": "explicit",
-      "source.unusedImports": "explicit",
-      "source.fixAll": "explicit"
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
     },
-    "editor.defaultFormatter": "ms-python.black-formatter"
-  },
-  "python.analysis.diagnosticSeverityOverrides": {
-    "reportMissingImports": "none"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "python.analysis.typeCheckingMode": "basic",
-  "python.analysis.autoImportCompletions": true,
-  "isort.check": false,
-  "isort.args": ["--profile", "black"],
-  "files.associations": {
-    "*.erb": "erb",
-    "*.slim": "slim"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[python]": {
+        "editor.codeActionsOnSave": {
+            "editor.formatOnSave": "explicit",
+            "source.fixAll": "explicit",
+            "source.organizeImports": "explicit",
+            "source.unusedImports": "explicit"
+        },
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.tabSize": 4
+    },
+    "black-formatter.args": [
+        "--config",
+        "app/pyproject.toml"
+    ],
+    "editor.foldingImportsByDefault": true,
+    "editor.insertSpaces": true,
+    "files.associations": {
+        "*.erb": "erb",
+        "*.slim": "slim"
+    },
+    "files.trimTrailingWhitespace": true,
+    "isort.args": [
+        "--profile",
+        "black"
+    ],
+    "isort.check": false,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportMissingImports": "none"
+    },
+    "python.analysis.typeCheckingMode": "basic"
 }

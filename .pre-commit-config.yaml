@@ -1,0 +1,57 @@
+---
+default_language_version:
+  python: python3.14
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v6.0.0
+    hooks:
+      - id: trailing-whitespace
+        exclude: '\.svg$|\.log$|\.txt$'
+      - id: check-added-large-files
+      - id: fix-byte-order-marker
+      - id: check-docstring-first
+      - id: pretty-format-json
+        args: [--autofix, --indent=4]
+      - id: check-json
+      - id: check-merge-conflict
+      - id: check-symlinks
+      - id: check-toml
+      - id: check-vcs-permalinks
+      - id: check-xml
+      - id: check-yaml
+        args: [--unsafe]
+      - id: file-contents-sorter
+      - id: mixed-line-ending
+      - id: name-tests-test
+      - id: sort-simple-yaml
+
+  - repo: https://github.com/pycqa/isort
+    rev: 8.0.1
+    hooks:
+      - id: isort
+        args: ["--profile=black", "--sp=."]
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.7
+    hooks:
+      - id: ruff
+        args:
+          - --fix
+          - --config
+          - pyproject.toml
+
+      - id: ruff-format
+        args:
+          - --config
+          - pyproject.toml
+
+  - repo: https://github.com/arquitt/docformatter
+    rev: 1.8.0
+    hooks:
+      - id: docformatter
+        exclude: ^scripts/check_pydoc_sections\.py$
+        args:
+          - --in-place
+          - --config
+          - ./pyproject.toml

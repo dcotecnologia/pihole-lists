@@ -15,7 +15,16 @@ jobs:
       - name: Set environment variables
         id: vars
         run: |
-          echo "project_version=$(cat .version)" >> $GITHUB_OUTPUT
+          PROJECT_VERSION=$(python - <<'PY'
+          import tomllib
+
+          with open("pyproject.toml", "rb") as file:
+              pyproject = tomllib.load(file)
+
+          print(pyproject["project"]["version"])
+          PY
+          )
+          echo "project_version=${PROJECT_VERSION}" >> "$GITHUB_OUTPUT"
       - name: Get Changelog Entry
         id: changelog_reader
         uses: mindsers/changelog-reader-action@master
