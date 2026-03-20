@@ -247,6 +247,7 @@
 0.0.0.0 chicotimes.com
 0.0.0.0 chippewavalleytimes.com
 0.0.0.0 chocolate.news
+0.0.0.0 choqueifofoca.com.br
 0.0.0.0 christianfightback.com
 0.0.0.0 christiantimesnewspaper.com
 0.0.0.0 christwire.org
@@ -695,6 +696,7 @@
 0.0.0.0 imperialcanews.com
 0.0.0.0 imzansi.co.za
 0.0.0.0 indiaarising.com
+0.0.0.0 indiafacts.org
 0.0.0.0 indianabusinessdaily.com
 0.0.0.0 indianolaguide.com
 0.0.0.0 indiantownguide.com
@@ -1230,6 +1232,7 @@
 0.0.0.0 ontonagonguide.com
 0.0.0.0 opednews.com
 0.0.0.0 openborders.news
+0.0.0.0 opindia.com
 0.0.0.0 opioids.news
 0.0.0.0 orbusinessdaily.com
 0.0.0.0 oreillypost.com
@@ -1308,6 +1311,7 @@
 0.0.0.0 portagetimes.com
 0.0.0.0 portlandcourant.com
 0.0.0.0 portlandmainenews.com
+0.0.0.0 postcard.news
 0.0.0.0 power.news
 0.0.0.0 powergrid.news
 0.0.0.0 powernewswire.com
@@ -1640,6 +1644,7 @@
 0.0.0.0 sussexreview.com
 0.0.0.0 swalaskanews.com
 0.0.0.0 swalleghenynews.com
+0.0.0.0 swarajyamag.com
 0.0.0.0 swarizonanews.com
 0.0.0.0 swarkansastimes.com
 0.0.0.0 swbluegrassnews.com
@@ -1679,6 +1684,7 @@
 0.0.0.0 techgiants.news
 0.0.0.0 technocrats.news
 0.0.0.0 texasbusinesscoalition.com
+0.0.0.0 tfipost.com
 0.0.0.0 the-newspapers.com
 0.0.0.0 theamericanindependent.wordpress.com
 0.0.0.0 theamericanrevenant.com
@@ -2044,6 +2050,7 @@
 0.0.0.0 www.humortimes.com
 0.0.0.0 www.huzlers.com
 0.0.0.0 www.ifactsviral.com
+0.0.0.0 www.indiafacts.org.in
 0.0.0.0 www.infiniteunknown.net
 0.0.0.0 www.informationclearinghouse.info
 0.0.0.0 www.informationliberation.com
@@ -2191,10 +2198,3 @@
 0.0.0.0 yournewswire.com
 0.0.0.0 youtubecensorship.com
 0.0.0.0 yubasuttertimes.com
-0.0.0.0 opindia.com
-0.0.0.0 postcard.news
-0.0.0.0 swarajyamag.com
-0.0.0.0 indiafacts.org
-0.0.0.0 www.indiafacts.org.in
-0.0.0.0 tfipost.com
-0.0.0.0 choqueifofoca.com.br
