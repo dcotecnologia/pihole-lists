@@ -136,3 +136,4 @@ package-lock.json
 # project
 src/out
 src/log.txt
+lists/test_hosts.txt

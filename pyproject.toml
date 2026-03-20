@@ -1,6 +1,6 @@
 [project]
 name = "pihole-lists"
-version = "1.2.0"
+version = "1.3.0"
 description = "Adlists to complete your pi-hole server"
 authors = [{ name = "Danilo Carolino", email = "danilogcarolino@gmail.com" }]
 license = { text = "MIT" }

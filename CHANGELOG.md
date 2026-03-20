@@ -5,6 +5,16 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.3.0] - 2026-03-20
+
+### Added
+
+- Added script to import third-party community lists by @danilogco
+
+### Changed
+
+- Updated ads, ads_malware, basic and phishing lists by @danilogco
+
 ## [1.2.0] - 2026-03-20
 
 ### Added
@@ -49,8 +59,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - mrjack.bet
 - br.novibet.com
 - br.betano.com
-- www.bets.com.br
-- www.galera.bet
+- <www.bets.com.br>
+- <www.galera.bet>
 - betnacional.com
 - br.netbet.com
 - sports.sportingbet.com
