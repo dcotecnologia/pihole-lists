@@ -71,11 +71,17 @@ def is_valid_domain_or_ip(value):
 
 def extract_domain_from_line(line, prefix):
     """Extract the domain from a line that starts with the given prefix."""
-    if not line.startswith(prefix):
-        return None
+    normalized = line.split("#", maxsplit=1)[0].strip()
+    if not normalized.startswith(prefix):
+        return None, None
 
-    parts = line.split(maxsplit=1)
-    return parts[1].strip() if len(parts) == 2 else None
+    parts = normalized.split()
+    if len(parts) < 2:
+        return None, None
+
+    domain = parts[1].strip()
+    normalized_line = f"{prefix} {domain}"
+    return domain, normalized_line
 
 
 def get_max_dns_workers():
@@ -104,12 +110,12 @@ def process_file(input_file, prefix, log_file):
         for line in infile:
             line = line.strip()
             if line and check_line_starts_with(line, prefix):
-                domain = extract_domain_from_line(line, prefix)
+                domain, normalized_line = extract_domain_from_line(line, prefix)
                 if not domain:
                     logging.warning(f'Entry "{domain}" is invalid and it\'s not being included to the list.')
                     continue
 
-                domain_to_lines.setdefault(domain, set()).add(line)
+                domain_to_lines.setdefault(domain, set()).add(normalized_line)
 
     if CHECK_DOMAIN_DNS:
         max_workers = get_max_dns_workers()
