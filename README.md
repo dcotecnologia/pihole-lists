@@ -21,6 +21,7 @@ Simplified Adlists to complete your pi-hole server.
 | fakenews    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/fakenews.txt)    | Known sites that promote fake news                     |
 | fraud       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/fraud.txt)       | Sites create to fraud                                  |
 | gambling    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/gambling.txt)    | All gambling based site legit and illegal              |
+| microsoft   | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/nucrisift.txt)   | General Microsoft reladted hosts                       |
 | phishing    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/phishing.txt)    | Sites created to phish info                            |
 | piracy      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/piracy.txt)      | Knows sites that allow for illegal downloads           |
 | porn        | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/porn.txt)        | Porn or sites that promote porn                        |
