@@ -6539,6 +6539,3 @@
 0.0.0.0 zplayer.trk.zapps.vn
 0.0.0.0 zucks.net
 0.0.0.0 zzhc.vnet.cn
-0.0.0.0 a.com
-0.0.0.0 b.com
-0.0.0.0 plain.com

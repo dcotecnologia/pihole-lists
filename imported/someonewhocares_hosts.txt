@@ -4069,6 +4069,7 @@
 0.0.0.0 earnlivingonline.net
 0.0.0.0 earthlnkpsplive.122.2o7.net
 0.0.0.0 eas4.emediate.eu
+0.0.0.0 easewave.digital
 0.0.0.0 east.05tz2e9.com
 0.0.0.0 easy-pay.info
 0.0.0.0 easy-web-stats.com
@@ -10849,6 +10850,7 @@
 0.0.0.0 www.banstex.com
 0.0.0.0 www.bar.ry2002.02-ry014.snpr.hotmx.hair.zaam.net
 0.0.0.0 www.barjacity.com
+0.0.0.0 www.baseequip.com
 0.0.0.0 www.bazarusmassazha.com
 0.0.0.0 www.bbelements.com
 0.0.0.0 www.bbyjgkkdihiyxy.com
@@ -11155,6 +11157,7 @@
 0.0.0.0 www.expolearn.com
 0.0.0.0 www.expoteam.net
 0.0.0.0 www.exteriorteam.com
+0.0.0.0 www.extrabrick.com
 0.0.0.0 www.extreme-dm.com
 0.0.0.0 www.exvaro.cfd
 0.0.0.0 www.eyewonder.com
@@ -11477,6 +11480,7 @@
 0.0.0.0 www.loansfield.com
 0.0.0.0 www.loboclick.com
 0.0.0.0 www.lockupouseburn.com
+0.0.0.0 www.logoradar.com
 0.0.0.0 www.lolhello.com
 0.0.0.0 www.lolshock.com
 0.0.0.0 www.loltrain.com
@@ -11977,6 +11981,7 @@
 0.0.0.0 www.tradedoubler.com
 0.0.0.0 www.tradelax.com
 0.0.0.0 www.tradem.com
+0.0.0.0 www.tradewinning.com
 0.0.0.0 www.tradingtactics.win
 0.0.0.0 www.trafficmagnet.net
 0.0.0.0 www.trafficnetworkads24.com
@@ -12015,6 +12020,7 @@
 0.0.0.0 www.u1trkqf.com
 0.0.0.0 www.ukbanners.com
 0.0.0.0 www.ultimatecounter.com
+0.0.0.0 www.ultratemps.com
 0.0.0.0 www.unetbootin.net
 0.0.0.0 www.unetbootin.org
 0.0.0.0 www.uniqueinternettexasholdempoker.com
@@ -12432,6 +12438,3 @@
 0.0.0.0 zz.cqcounter.com
 0.0.0.0 zzhc.vnet.cn
 0.0.0.0 zzkwg.comfortykive.xyz
-0.0.0.0 a.com
-0.0.0.0 b.com
-0.0.0.0 plain.com

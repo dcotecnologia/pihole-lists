@@ -81940,6 +81940,3 @@
 0.0.0.0 zzhc.vnet.cn
 0.0.0.0 zzkwg.comfortykive.xyz
 0.0.0.0 zzz.onion.pet
-0.0.0.0 a.com
-0.0.0.0 b.com
-0.0.0.0 plain.com
