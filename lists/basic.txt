@@ -2929,6 +2929,15 @@
 0.0.0.0 LUXpolice.net
 0.0.0.0 PAKpolice.com
 0.0.0.0 USApolice.com
+0.0.0.0 a-0001.a-msedge.net
+0.0.0.0 a-0002.a-msedge.net
+0.0.0.0 a-0003.a-msedge.net
+0.0.0.0 a-0004.a-msedge.net
+0.0.0.0 a-0005.a-msedge.net
+0.0.0.0 a-0006.a-msedge.net
+0.0.0.0 a-0007.a-msedge.net
+0.0.0.0 a-0008.a-msedge.net
+0.0.0.0 a-0009.a-msedge.net
 0.0.0.0 a-5.info
 0.0.0.0 a-ads.com
 0.0.0.0 a-autodiscover.niggermania.co
@@ -3861,6 +3870,7 @@
 0.0.0.0 ac1.ayee.net
 0.0.0.0 ac10.i2i.jp
 0.0.0.0 ac2.i2i.jp
+0.0.0.0 ac3.msn.com
 0.0.0.0 ac4.i2i.jp
 0.0.0.0 ac5.i2i.jp
 0.0.0.0 ac7.i2i.jp
@@ -12926,6 +12936,8 @@
 0.0.0.0 appearch.info
 0.0.0.0 append.pl
 0.0.0.0 appenstance.com
+0.0.0.0 appex.bing.com
+0.0.0.0 appex.bing.net
 0.0.0.0 appfixing.space
 0.0.0.0 appflood.com
 0.0.0.0 appfox.org
@@ -13111,6 +13123,7 @@
 0.0.0.0 apps.pubmatic.com
 0.0.0.0 apps.saintsoporte.com
 0.0.0.0 apps.shareaholic.com
+0.0.0.0 apps.skype.com
 0.0.0.0 apps3.cointraffic.io
 0.0.0.0 apps5.oingo.com
 0.0.0.0 apps9039.super-your-prize33.loan
@@ -13646,6 +13659,7 @@
 0.0.0.0 asianread.com
 0.0.0.0 asicspolska.com
 0.0.0.0 asimopkrehikolmajfef.com
+0.0.0.0 asimov-win.settings.data.microsoft.com.akadns.net
 0.0.0.0 asimpkhuterjikolnifer.com
 0.0.0.0 asimplyblog.blogspot.com
 0.0.0.0 asisparadise.com
@@ -21665,6 +21679,8 @@
 0.0.0.0 choddia.com
 0.0.0.0 chodzimiiotoze.site
 0.0.0.0 choengmon-beach.com
+0.0.0.0 choice.microsoft.com
+0.0.0.0 choice.microsoft.com.nsatc.net
 0.0.0.0 choicedealz.com
 0.0.0.0 choices.trustarc.com
 0.0.0.0 choices.truste.com
@@ -24537,6 +24553,8 @@
 0.0.0.0 corp.keele-nnw-leis-mc-leis.net.daraz.com
 0.0.0.0 corp.nsm88.org
 0.0.0.0 corp.president.jp
+0.0.0.0 corp.sts.microsoft.com
+0.0.0.0 corpext.msitadfs.glbdns2.microsoft.com
 0.0.0.0 corporacioncrf.com
 0.0.0.0 corporacionwolozny.info
 0.0.0.0 corporacionwolozny.net
@@ -27351,7 +27369,9 @@
 0.0.0.0 db3aqu.atdmt.com
 0.0.0.0 db4.net-filter.com
 0.0.0.0 db4.sitestats.com
+0.0.0.0 db5-eap.settings-win.data.microsoft.com.akadns.net
 0.0.0.0 db5.net-filter.com
+0.0.0.0 db5.settings-win.data.microsoft.com.akadns.net
 0.0.0.0 db5.sitestats.com
 0.0.0.0 db6.net-filter.com
 0.0.0.0 db6.sitestats.com
@@ -28266,6 +28286,7 @@
 0.0.0.0 diadora-polska.com
 0.0.0.0 diag-wd.gridsumdissector.com
 0.0.0.0 diagnosis.ad.intl.xiaomi.com
+0.0.0.0 diagnostics.support.microsoft.com
 0.0.0.0 diagram-shape.com
 0.0.0.0 diagramsbumpy.sbs
 0.0.0.0 diaita.ch
@@ -31987,6 +32008,7 @@
 0.0.0.0 emxdigital.com
 0.0.0.0 emxhb.emxdgt.com
 0.0.0.0 en-ccc.shop
+0.0.0.0 en-gb.appex-rf.msn.com
 0.0.0.0 en-log.vietnamplus.vn
 0.0.0.0 en.baoend.com
 0.0.0.0 en.btc-trader-app.club
@@ -34531,6 +34553,7 @@
 0.0.0.0 fe1-fi.imrworldwide.com
 0.0.0.0 fe1-it.imrworldwide.com
 0.0.0.0 fe2-au.imrworldwide.com
+0.0.0.0 fe2.update.microsoft.com.akadns.net
 0.0.0.0 fe3-au.imrworldwide.com
 0.0.0.0 fe3-gc.imrworldwide.com
 0.0.0.0 fe3-uk.imrworldwide.com
@@ -34580,8 +34603,10 @@
 0.0.0.0 feedanalytics.com
 0.0.0.0 feedback.adrecover.com
 0.0.0.0 feedback.microsoft-hohm.com
+0.0.0.0 feedback.search.microsoft.com
 0.0.0.0 feedback.uc.cn
 0.0.0.0 feedback.vegasgoldenknights.com
+0.0.0.0 feedback.windows.com
 0.0.0.0 feedbackcensus.com
 0.0.0.0 feedbackexplorer.com
 0.0.0.0 feedbackify.com
@@ -38491,6 +38516,7 @@
 0.0.0.0 geo.query.yahoo.com
 0.0.0.0 geo.rlcdn.com
 0.0.0.0 geo.safelinktracker.com
+0.0.0.0 geo.settings-win.data.microsoft.com.akadns.net
 0.0.0.0 geo.widdit.com
 0.0.0.0 geo.xxxblackbook.com
 0.0.0.0 geo.yahoo.com
@@ -44345,6 +44371,7 @@
 0.0.0.0 i0.anthill.vn
 0.0.0.0 i1.dl-ad.com
 0.0.0.0 i1.ictorganisers.com
+0.0.0.0 i1.services.social.microsoft.com
 0.0.0.0 i1.teaser-goods.ru
 0.0.0.0 i1.vaishnaviinterior.com
 0.0.0.0 i10c.net
@@ -44833,6 +44860,7 @@
 0.0.0.0 idxkokbmcf.live
 0.0.0.0 idyllicdownload.com
 0.0.0.0 ie-business.vodafone.com
+0.0.0.0 ie9comview.vo.msecnd.net
 0.0.0.0 iebar.baidu.com
 0.0.0.0 iecepgcc.org
 0.0.0.0 ieclb.com.br
@@ -51663,6 +51691,7 @@
 0.0.0.0 licensebuttons.net
 0.0.0.0 licensing.bitmovin.com
 0.0.0.0 licensing.blinkreceipt.com
+0.0.0.0 licensing.md.mp.microsoft.com
 0.0.0.0 lichenfordup.pro
 0.0.0.0 lichristmasdlon.com
 0.0.0.0 licrivitsale.shop
@@ -53627,6 +53656,7 @@
 0.0.0.0 m.friendlyduck.com
 0.0.0.0 m.gafin.vn
 0.0.0.0 m.haravan.com
+0.0.0.0 m.hotmail.com
 0.0.0.0 m.iasmembership.org
 0.0.0.0 m.ib.sin1.geoadnxs.com
 0.0.0.0 m.irs01.com
@@ -68776,6 +68806,7 @@
 0.0.0.0 msfn.us.intellitxt.com
 0.0.0.0 msft-ssp-emea.adnxs.com
 0.0.0.0 msft-ssp.adnxs.com
+0.0.0.0 msftncsi.com
 0.0.0.0 msg-0209861dced41c7ef.insurads.com
 0.0.0.0 msg.cocamobile.com
 0.0.0.0 msg.dotomi.com
@@ -83294,6 +83325,7 @@
 0.0.0.0 r2.ritikajoshi.com
 0.0.0.0 r2.romeflirt.com
 0.0.0.0 r2.visualwebsiteoptimizer.com
+0.0.0.0 r20swj13mr.microsoft.com
 0.0.0.0 r24-tech.com
 0.0.0.0 r2a5d7.lat
 0.0.0.0 r2ntxa.site
@@ -84073,6 +84105,7 @@
 0.0.0.0 redir.adap.tv
 0.0.0.0 redir.bebi.com
 0.0.0.0 redir.juicyads.com
+0.0.0.0 redir.metaservices.microsoft.com
 0.0.0.0 redir9.alteabz.it
 0.0.0.0 redircpapp.co.za
 0.0.0.0 redirect-connection.com
@@ -86313,6 +86346,7 @@
 0.0.0.0 s.flite.com
 0.0.0.0 s.fqtag.com
 0.0.0.0 s.gamoshi.io
+0.0.0.0 s.gateway.messenger.live.com
 0.0.0.0 s.giaoducthoidai.vn
 0.0.0.0 s.glimesh.tv
 0.0.0.0 s.go-mpulse.net
@@ -89293,6 +89327,8 @@
 0.0.0.0 setting.rayjump.com
 0.0.0.0 settings-analytics.hotstar.com
 0.0.0.0 settings-liverez.com
+0.0.0.0 settings-sandbox.data.microsoft.com
+0.0.0.0 settings-win.data.microsoft.com
 0.0.0.0 settings.crashlytics.com
 0.0.0.0 settings.luckyorange.net
 0.0.0.0 settingupdate.yourgoodflashupgradingmain.icu
@@ -90974,6 +91010,7 @@
 0.0.0.0 slowmacfaster.trade
 0.0.0.0 slowsloaded.manegis.com
 0.0.0.0 slowstrategist.com
+0.0.0.0 sls.update.microsoft.com.akadns.net
 0.0.0.0 sls2.loisirsencheres.com
 0.0.0.0 sltravelcom.112.2o7.net
 0.0.0.0 sltrib-d.openx.net
@@ -93817,6 +93854,7 @@
 0.0.0.0 sqlnetcat.com
 0.0.0.0 sqlservercentral.us.intellitxt.com
 0.0.0.0 sqm.telemetry.microsoft.com
+0.0.0.0 sqm.telemetry.microsoft.com.nsatc.net
 0.0.0.0 sqqssh.com
 0.0.0.0 squarefootball.uk.intellitxt.com
 0.0.0.0 squarehigher.pgslot888x.com
@@ -95498,6 +95536,7 @@
 0.0.0.0 statsf-tm.everesttech.net
 0.0.0.0 statsf.tubemogul.com
 0.0.0.0 statsfe1.ws.microsoft.com
+0.0.0.0 statsfe2.update.microsoft.com.akadns.net
 0.0.0.0 statsfe2.ws.microsoft.com
 0.0.0.0 statsie.com
 0.0.0.0 statsonline.pushct.baidu.com
@@ -96706,6 +96745,7 @@
 0.0.0.0 survey.scientology.org
 0.0.0.0 survey.survicate.com
 0.0.0.0 survey.vietnamnetad.vn
+0.0.0.0 survey.watson.microsoft.com
 0.0.0.0 survey.wootric.com
 0.0.0.0 survey1-au.imrworldwide.com
 0.0.0.0 survey2.voicefive.com
@@ -102953,6 +102993,7 @@
 0.0.0.0 ui.clevernt.com
 0.0.0.0 ui.oix.net
 0.0.0.0 ui.ppjol.com
+0.0.0.0 ui.skype.com
 0.0.0.0 uib.ff.avast.com
 0.0.0.0 uidbox.uimserv.net
 0.0.0.0 uim.tifbs.net
@@ -106030,9 +106071,12 @@
 0.0.0.0 vortex-bn2.metron.live.com.nsatc.net
 0.0.0.0 vortex-cy2.metron.live.com.nsatc.net
 0.0.0.0 vortex-mist.com
+0.0.0.0 vortex-sandbox.data.microsoft.com
 0.0.0.0 vortex-valor.net
+0.0.0.0 vortex-win-sandbox.data.microsoft.com
 0.0.0.0 vortex-win.data.microsoft.com
 0.0.0.0 vortex.data.microsoft.com
+0.0.0.0 vortex.data.microsoft.com.akadns.net
 0.0.0.0 vortexanchorhub.com
 0.0.0.0 vorymuala.autos
 0.0.0.0 vorynmira-fr.com
@@ -127966,6 +128010,7 @@
 0.0.0.0 www.ms.hotu.xyz
 0.0.0.0 www.ms10be.be
 0.0.0.0 www.ms247.plus.com
+0.0.0.0 www.msftncsi.com
 0.0.0.0 www.msgoin.com
 0.0.0.0 www.msgtag.com
 0.0.0.0 www.msh1ka.webwave.dev

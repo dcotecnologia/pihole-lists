@@ -3004,10 +3004,10 @@
 0.0.0.0 channel.muscdn.com
 0.0.0.0 chaos-boe.byted.org
 0.0.0.0 charlottesville.twitter.com
+0.0.0.0 chat-e2ee-mini.facebook.com
 0.0.0.0 chat.cdn.whatsapp.net
 0.0.0.0 chat.messenger.com
 0.0.0.0 chat.whatsapp.com
-0.0.0.0 chat-e2ee-mini.facebook.com
 0.0.0.0 check4.facebook.com
 0.0.0.0 check6.facebook.com
 0.0.0.0 cheddar.twitter.com
