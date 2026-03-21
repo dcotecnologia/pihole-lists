@@ -1,5 +1,4 @@
 import logging
-import logging.config
 import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from functools import lru_cache
@@ -7,7 +6,13 @@ from functools import lru_cache
 import dns.exception
 import dns.resolver
 import validators
-import yaml
+
+logging.basicConfig(
+    level=logging.INFO,  # ou DEBUG se quiser mais detalhes
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+)
+
+logger = logging.getLogger(__name__)
 
 
 def get_filenames_without_extension(directory):
@@ -29,9 +34,9 @@ def check_line_starts_with(line, prefix):
 def integrity_message(fname):
     """Display a message confirming the existence of a file."""
     if os.path.exists(fname):
-        logging.info(f"Hosts file compiled successfully and available in {fname}")
+        logger.info(f"Hosts file compiled successfully and available in {fname}")
     else:
-        logging.error(f"Hosts file couldn't be compiled: {fname}")
+        logger.error(f"Hosts file couldn't be compiled: {fname}")
 
 
 def selected_lists(input_lists):
@@ -64,7 +69,7 @@ def is_valid_domain_or_ip(value):
     except dns.resolver.NoAnswer, dns.resolver.NXDOMAIN, dns.exception.Timeout:
         return False
     except dns.resolver.NoNameservers:
-        logging.error(f"No nameservers available for domain: {value}")
+        logger.error(f"No nameservers available for domain: {value}")
         return False
 
 
@@ -111,7 +116,7 @@ def process_file(input_file, prefix, log_file):
             if line and check_line_starts_with(line, prefix):
                 domain, normalized_line = extract_domain_from_line(line, prefix)
                 if not domain:
-                    logging.warning(f'Entry "{domain}" is invalid and it\'s not being included to the list.')
+                    logger.warning(f'Entry "{domain}" is invalid and it\'s not being included to the list.')
                     continue
 
                 domain_to_lines.setdefault(domain, set()).add(normalized_line)
@@ -138,7 +143,7 @@ def process_file(input_file, prefix, log_file):
 
     for domain in invalid_domains:
         log_file.write(f"{domain} - refused by validators/dns\n")
-        logging.warning(f'Domain "{domain}" is invalid and it\'s not being included to the list.')
+        logger.warning(f'Domain "{domain}" is invalid and it\'s not being included to the list.')
 
     return sorted(unique_lines)
 
@@ -150,7 +155,7 @@ def main():
 
     with open("log.txt", "w", encoding="utf-8") as log_file:
         for list_name in selected:
-            logging.info(f'Started cleaning "{list_name}" list.')
+            logger.info(f'Started cleaning "{list_name}" list.')
             file_path = f"lists/{list_name}.txt"
 
             # Process the file to extract and filter unique lines
@@ -174,7 +179,4 @@ PREFIX_TO_CHECK = "0.0.0.0"
 CHECK_DOMAIN_DNS: bool = bool(int(os.getenv("CHECK_DOMAIN_DNS", 0)))
 
 if __name__ == "__main__":
-    with open(".log-config.yml") as f:
-        config = yaml.safe_load(f)
-        logging.config.dictConfig(config)
     main()

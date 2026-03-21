@@ -7,7 +7,6 @@ license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
 dependencies = [
-	"coloredlogs>=15.0.1",
 	"dnspython>=2.8.0",
 	"pyyaml>=6.0.3",
 	"validators>=0.35.0",

@@ -11,7 +11,7 @@ help: ## Show available commands
 	@awk 'BEGIN {FS = ":.*##"; printf "Usage: make <target>\n\nTargets:\n"} /^[a-zA-Z_-]+:.*##/ {printf "  %-12s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
 cleanup: ## Run list cleanup routine in Docker
-	$(DOCKER_COMPOSE_CMD) run cleanup
+	$(DOCKER_COMPOSE_CMD) run --rm --remove-orphans cleanup
 
 lint: ## Run pre-commit checks
 	pre-commit run --all-files
