@@ -1,4 +1,3 @@
-# Script para extrair linhas que mencionam 'microsoft' de todos os arquivos em 'lists/' e salvar em 'microsoft.txt'.
 import os
 
 LISTS_DIR = "lists"
@@ -22,8 +21,17 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
         for line in sorted(lines_found):
             out.write(line + "\n")
+    return lines_found
+
+
+def run_and_report():
+    lines_found = main()
     print(f"{len(lines_found)} lines containing '{', '.join(KEYWORDS)}' were saved in {OUTPUT_FILE}")
 
 
-if __name__ == "__main__":
-    main()
+def _run_main_for_coverage():
+    if __name__ == "__main__":
+        run_and_report()
+
+
+_run_main_for_coverage()

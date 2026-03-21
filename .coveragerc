@@ -1,0 +1,6 @@
+[run]
+concurrency = thread
+parallel = true
+branch = true
+include = src/*
+data_file = .coverage

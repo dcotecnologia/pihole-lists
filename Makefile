@@ -35,4 +35,4 @@ import:
 	$(UV_CMD) run $(PYTHON_CMD) src/import.py
 
 test:
-	$(UV_CMD) run pytest -s
+	$(UV_CMD) run PYTHONPATH=. pytest tests/
