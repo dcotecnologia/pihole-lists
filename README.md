@@ -39,6 +39,18 @@ Simplified Adlists to complete your pi-hole server.
 | x           | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/x.txt)           | User requested list that blocks only X / Twitter       |
 | youtube     | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/youtube.txt)     | User requested list that blocks only Youtube           |
 
+## External lists
+
+| List                                                                                                                                     |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| Adaway             | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/adaway_hosts.txt)              |
+| Nolovia            | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/nolovia_hosts.txt)             |
+| Openshift          | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/openphish_hosts.txt)           |
+| Someonewhocares    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/someonewhocares_hosts.txt)     |
+| Spam404            | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/Spam404_hosts.txt)             |
+| stevenblack        | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/stevenblack_hosts.txt)         |
+| yoyo               | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/yoyo_hosts.txt)                |
+
 ## How to generate a compiled list
 
 Create a docker image:
