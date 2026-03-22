@@ -8099,6 +8099,7 @@
 0.0.0.0 api.easydoc.soft.360.cn
 0.0.0.0 api.enterprise.glympse.com
 0.0.0.0 api.essendon.duckdns.org
+0.0.0.0 api.events.isec.intelbras.com.br
 0.0.0.0 api.fastapi.duckdns.org
 0.0.0.0 api.firefly-iii.happyriver.duckdns.org
 0.0.0.0 api.flexispy.com
@@ -8270,6 +8271,7 @@
 0.0.0.0 apmg.iad1.qualtrics.com
 0.0.0.0 apnanet.duckdns.org
 0.0.0.0 apnmwawiec.duckdns.org
+0.0.0.0 apns-mock.events.isec.intelbras.com.br
 0.0.0.0 apns.duckdns.org
 0.0.0.0 apns.mobi.f.360.cn
 0.0.0.0 apnydikrry.duckdns.org

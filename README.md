@@ -20,6 +20,7 @@ Simplified Adlists to complete your pi-hole server.
 | facebook    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/facebook.txt)    | Block FB and FB related / owned services               |
 | fakenews    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/fakenews.txt)    | Known sites that promote fake news                     |
 | fraud       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/fraud.txt)       | Sites create to fraud                                  |
+| intelbras   | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/intelbras.txt)   | Intelbras service & events tracking                    |
 | gambling    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/gambling.txt)    | All gambling based site legit and illegal              |
 | microsoft   | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/nucrisift.txt)   | General Microsoft reladted hosts                       |
 | phishing    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/phishing.txt)    | Sites created to phish info                            |
