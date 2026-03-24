@@ -11,6 +11,7 @@ dependencies = [
 	"pyyaml>=6.0.3",
 	"validators>=0.35.0",
 	"requests>=2.32.5",
+	"tldextract>=5.3.1",
 ]
 
 [dependency-groups]

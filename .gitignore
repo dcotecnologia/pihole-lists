@@ -137,3 +137,6 @@ package-lock.json
 src/out
 src/log.txt
 lists/test_hosts.txt
+log.txt
+imported/*
+cache

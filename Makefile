@@ -10,8 +10,12 @@ PYTHON_CMD := python
 help: ## Show available commands
 	@awk 'BEGIN {FS = ":.*##"; printf "Usage: make <target>\n\nTargets:\n"} /^[a-zA-Z_-]+:.*##/ {printf "  %-12s %s\n", $$1, $$2}' $(MAKEFILE_LIST)
 
+#$(DOCKER_COMPOSE_CMD) run --rm --remove-orphans cleanup
 cleanup: ## Run list cleanup routine in Docker
-	$(DOCKER_COMPOSE_CMD) run --rm --remove-orphans cleanup
+	$(UV_CMD) run $(PYTHON_CMD) -m src.cleanup
+
+export-gravity: ## Export unique hosts from Pi-hole gravity database
+	sudo sqlite3 /etc/pihole/gravity.db "SELECT domain FROM gravity ORDER BY domain ASC;" > unique_hosts.txt
 
 lint: ## Run pre-commit checks
 	pre-commit run --all-files
