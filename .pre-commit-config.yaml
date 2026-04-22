@@ -33,7 +33,7 @@ repos:
         args: ["--profile=black", "--sp=."]
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.7
+    rev: v0.15.11
     hooks:
       - id: ruff
         args:
