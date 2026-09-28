@@ -5,8 +5,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Added
+
+- Added `webapp/api` (FastAPI) and `webapp/web` (Vue 3 + Vite): a local, Dockerized, hot-reload
+  admin UI to list, add, and remove lists/entries in `lists/` without editing files by hand,
+  wired into the root `docker-compose.yml` by @danilogco
+
 ### Changed
 
+- Established a single lint/format standard per language: ruff for every Python project in the
+  repo (root and `webapp/api`, which inherits the root `pyproject.toml` config instead of
+  duplicating it), and ESLint + Prettier for `webapp/web`, both wired into pre-commit by
+  @danilogco
 - Extracted `src/common.py` to remove the `get_filenames_without_extension`/`delete_file`/`selected_lists`
   logic duplicated across `build.py`, `cleanup.py`, and `readme_list.py` by @danilogco
 - `src/import.py` now uses a configured, named logger instead of silently-dropped root-logger
