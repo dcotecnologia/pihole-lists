@@ -19,6 +19,10 @@ repos:
       - id: check-docstring-first
       - id: pretty-format-json
         args: [--autofix, --indent=4]
+        # webapp/web's JSON files (package.json, .vscode/extensions.json) are
+        # owned by Prettier (see the web-prettier hook below) - 2-space
+        # indent per .prettierrc, not this hook's 4-space default.
+        exclude: '^webapp/web/'
       - id: check-json
       - id: check-merge-conflict
       - id: check-symlinks
@@ -76,3 +80,21 @@ repos:
     hooks:
       - id: markdownlint
         args: ['--config', '.markdownlint.json', '--fix']
+
+  # Single lint/format standard for the web app (webapp/web): ESLint +
+  # Prettier, run via bun so they share webapp/web's own installed
+  # devDependencies/config instead of pre-commit's own isolated node env.
+  - repo: local
+    hooks:
+      - id: web-eslint
+        name: eslint (webapp/web)
+        entry: bash -c 'cd webapp/web && bun run lint'
+        language: system
+        files: ^webapp/web/.*\.(js|vue)$
+        pass_filenames: false
+      - id: web-prettier
+        name: prettier (webapp/web)
+        entry: bash -c 'cd webapp/web && bun run format:fix'
+        language: system
+        files: ^webapp/web/.*\.(js|vue|css|html|json)$
+        pass_filenames: false

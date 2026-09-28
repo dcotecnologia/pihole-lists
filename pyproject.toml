@@ -27,51 +27,25 @@ package = false
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.isort]
-multi_line_output = 3
-include_trailing_comma = true
-force_grid_wrap = 0
-line_length = 88
-profile = "black"
-
-[tool.black]
-line-length = 120
-extend-exclude = '''
-(
-/.*__snapshots/.*output\.py # exclude the simple snapshot outputs
-)
-'''
-
 [tool.docformatter]
 black = true
 non-strict = false
 non-cap = ["docformatter"]
 
-[tool.flake8]
-max-line-length = 120
-
-[tool.pycodestyle]
-max-line-length = 120
-
-[tool.mypy]
-python_version = 3.12
-check_untyped_defs = true
-ignore_missing_imports = true
-warn_unused_ignores = true
-warn_redundant_casts = true
-warn_unused_configs = true
-
+# Single lint/format standard for every Python project in this repo (root
+# and webapp/api): ruff. webapp/api's pyproject.toml has no [tool.ruff]
+# section of its own on purpose, so it inherits this one - see
+# .claude/COMMITS.md-adjacent note in webapp/api/pyproject.toml.
 [tool.ruff]
 line-length = 160
 target-version = "py314"
-exclude = ["common/core/db/migrations"]
 
 [tool.ruff.lint]
 select = ["E", "F", "B", "I", "UP"]
 ignore = ["E712"]
 
 [tool.ruff.lint.isort]
-known-first-party = ["app", "common", "easetrack"]
+known-first-party = ["common", "settings", "app"]
 
 [tool.ruff.format]
 quote-style = "double"
