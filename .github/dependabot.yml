@@ -11,3 +11,10 @@ updates:
       interval: "weekly"
     allow:
       - dependency-type: direct
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    commit-message:
+      prefix: "[skip ci] build(deps):"
+    open-pull-requests-limit: 5
