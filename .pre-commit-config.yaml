@@ -1,8 +1,14 @@
 ---
+exclude: '^(cdk\.out)/'
 default_language_version:
   python: python3.14
 
 repos:
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    rev: 0.12.19
+    hooks:
+      - id: uv-lock
+
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v6.0.0
     hooks:
@@ -26,32 +32,47 @@ repos:
       - id: name-tests-test
       - id: sort-simple-yaml
 
-  - repo: https://github.com/pycqa/isort
-    rev: 8.0.1
-    hooks:
-      - id: isort
-        args: ["--profile=black", "--sp=."]
-
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.11
+    rev: v0.16.9
     hooks:
       - id: ruff
         args:
           - --fix
-          - --config
-          - pyproject.toml
+          - --config=pyproject.toml
 
       - id: ruff-format
         args:
-          - --config
-          - pyproject.toml
+          - --config=pyproject.toml
 
-  - repo: https://github.com/arquitt/docformatter
-    rev: 1.8.0
+  - repo: https://github.com/PyCQA/docformatter
+    rev: v1.7.8
     hooks:
       - id: docformatter
-        exclude: ^scripts/check_pydoc_sections\.py$
         args:
           - --in-place
-          - --config
-          - ./pyproject.toml
+          - --config=pyproject.toml
+
+  - repo: https://github.com/adrienverge/yamllint.git
+    rev: v1.38.0
+    hooks:
+      - id: yamllint
+        args:
+          - -d
+          - '{extends: default, rules: {document-start: disable, line-length: disable, truthy: disable, comments-indentation: disable}}'
+
+  - repo: https://github.com/gitleaks/gitleaks
+    rev: v8.30.0
+    hooks:
+      - id: gitleaks
+
+  - repo: https://github.com/Mateusz-Grzelinski/actionlint-py
+    rev: v1.7.12.25
+    hooks:
+      - id: actionlint
+        additional_dependencies: [shellcheck-py]
+
+  - repo: https://github.com/igorshubovych/markdownlint-cli
+    rev: v0.49.1
+    hooks:
+      - id: markdownlint
+        args: ['--config', '.markdownlint.json', '--fix']
