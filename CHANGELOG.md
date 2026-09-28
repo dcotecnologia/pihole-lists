@@ -5,6 +5,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+### Changed
+
+- Extracted `src/common.py` to remove the `get_filenames_without_extension`/`delete_file`/`selected_lists`
+  logic duplicated across `build.py`, `cleanup.py`, and `readme_list.py` by @danilogco
+- `src/import.py` now uses a configured, named logger instead of silently-dropped root-logger
+  `logging.info`/`logging.error` calls, and opens files with an explicit UTF-8 encoding by @danilogco
+- Refactored `src/readme_list.py` into a testable `main()` entry point, consistent with the
+  other scripts by @danilogco
+- Fixed broken `raw.githubusercontent.com`/issues links in `README.md` pointing at the wrong
+  repo name (`pi-hole-lists` instead of `pihole-lists`), replaced non-descriptive `[Link]`
+  anchor text, corrected several typos, and replaced the stale/broken `docker-compose run
+  build` instructions with the actual `make compile`/`make cleanup` workflow by @danilogco
+
 ## [1.3.0] - 2026-03-20
 
 ### Added

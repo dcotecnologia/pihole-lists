@@ -1,33 +1,22 @@
+"""Combines curated lists in `lists/` into every non-empty subset.
+
+Usage: `make compile` (or `uv run python src/build.py`), optionally with a `LISTS=a,b,c`
+env var to restrict which lists are combined.
+"""
+
 import os
 from itertools import combinations
 
+from common import (
+    filter_selected_lists,
+    get_filenames_without_extension,
+    line_has_prefix,
+)
+from settings import BUILD_OUTPUT_DIR, LISTS_DIR, PREFIX_TO_CHECK, env_selected_lists
 
-def get_filenames_without_extension(directory):
-    """Retrieves the list of filenames (without extensions) from a given directory.
-
-    Args:
-        directory (str): Path to the directory containing files.
-
-    Returns:
-        list: List of filenames without their extensions.
-    """
-    return [os.path.splitext(filename)[0] for filename in os.listdir(directory) if os.path.isfile(os.path.join(directory, filename))]
-
-
-ADLISTS = get_filenames_without_extension("lists")
+ADLISTS = get_filenames_without_extension(LISTS_DIR)
 ADLISTS_SET = set(ADLISTS)
-OUTPUT_DIR = "out"
-PREFIX_TO_CHECK = "0.0.0.0"
-
-
-def delete_file(file_path):
-    """Deletes the specified file if it exists.
-
-    Args:
-        file_path (str): Path to the file to be deleted.
-    """
-    if os.path.exists(file_path):
-        os.remove(file_path)
+OUTPUT_DIR = BUILD_OUTPUT_DIR
 
 
 def selected_lists(input_lists):
@@ -36,51 +25,64 @@ def selected_lists(input_lists):
     If no valid input is provided, it returns the default ADLISTS.
 
     Args:
-        input_lists (list): List of filenames to filter.
+        input_lists: List of filenames to filter.
 
     Returns:
-        list: Filtered list of filenames or the default ADLISTS.
+        The filtered list of filenames, or the default ADLISTS.
     """
-    lists = [item for item in input_lists if item in ADLISTS_SET]
-    return lists if lists else ADLISTS
+    return filter_selected_lists(input_lists, ADLISTS, ADLISTS_SET)
 
 
 def filter_condition(line):
     """Checks if a given line starts with the specified prefix.
 
     Args:
-        line (str): Line to check.
+        line: Line to check.
 
     Returns:
-        bool: True if the line starts with the PREFIX_TO_CHECK, False otherwise.
+        True if the line starts with `PREFIX_TO_CHECK`, False otherwise.
     """
-    return line.startswith(PREFIX_TO_CHECK)
+    return line_has_prefix(line, PREFIX_TO_CHECK)
 
 
 def load_filtered_lines(list_name):
-    """Load and filter a list file once to avoid repeated disk reads."""
-    list_path = os.path.join("lists", f"{list_name}.txt")
+    """Loads and filters a list file once, to avoid repeated disk reads.
+
+    Args:
+        list_name: Name of the list (without extension) under `lists/`.
+
+    Returns:
+        The set of stripped lines in the file that start with `PREFIX_TO_CHECK`.
+    """
+    list_path = os.path.join(LISTS_DIR, f"{list_name}.txt")
     with open(list_path, encoding="utf-8") as infile:
         return {line.strip() for line in infile if filter_condition(line)}
 
 
 def process_combination(combo, lines_by_list):
-    """Write one output file for the given list combination."""
+    """Writes one output file for the given list combination.
+
+    Args:
+        combo: Tuple of list names making up this combination.
+        lines_by_list: Mapping of list name to its pre-loaded, filtered lines
+            (as produced by `load_filtered_lines`).
+    """
     combined_lines = set().union(*(lines_by_list[list_name] for list_name in combo))
 
     output_filename = os.path.join(OUTPUT_DIR, "+".join(combo) + ".txt")
     with open(output_filename, "w", encoding="utf-8") as outfile:
-        outfile.write("\n".join(sorted(combined_lines)) + "\n")
+        outfile.writelines(f"{line}\n" for line in sorted(combined_lines))
 
 
 def main():
-    """Main function that orchestrates the process.
+    """Orchestrates the list-combination process.
 
-    It reads environment variables for the lists, selects the relevant lists, generates
-    all possible combinations, and processes them.
+    Reads the `LISTS` environment variable (or falls back to every list under `lists/`),
+    selects the relevant lists, generates every non-empty combination of them, and
+    writes one output file per combination under `OUTPUT_DIR`.
     """
     # Get the lists to process from environment variables or fall back to default
-    input_lists = [item.strip() for item in os.getenv("LISTS", ",".join(ADLISTS)).split(",") if item.strip()]
+    input_lists = env_selected_lists(ADLISTS)
     slc_lists = selected_lists(input_lists)
 
     # Read each selected list only once and reuse across all combinations.

@@ -17,17 +17,6 @@ def test_get_filenames_without_extension_lists_only_files(tmp_path):
     assert set(result) == {"one", "two"}
 
 
-def test_delete_file_removes_existing_and_ignores_missing(tmp_path):
-    target = tmp_path / "to_delete.txt"
-    target.write_text("x", encoding="utf-8")
-
-    build.delete_file(str(target))
-    assert not target.exists()
-
-    build.delete_file(str(target))
-    assert not target.exists()
-
-
 def test_selected_lists_filters_and_fallback(monkeypatch):
     monkeypatch.setattr(build, "ADLISTS", ["a", "b", "c"])
     monkeypatch.setattr(build, "ADLISTS_SET", {"a", "b", "c"})
