@@ -4,7 +4,7 @@
 
 Simplified adlists to complete your local dns server. You will need a software like [Pi-Hole](https://github.com/pi-hole/pi-hole).
 
-| basic (Recommended) | [basic.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/basic.txt) | A starter list that contains malicious, spam, phishing, ads, malware and tracking hosts |
+> **Recommended:** [`basic.txt`](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/basic.txt) — a starter list that contains malicious, spam, phishing, ads, malware and tracking hosts.
 
 ## Community
 
