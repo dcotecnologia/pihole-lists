@@ -1,0 +1,30 @@
+[project]
+name = "pihole-lists-api"
+version = "0.1.0"
+description = "Local API to list/add/remove Pi-hole lists and their entries"
+requires-python = ">=3.12,<4.0"
+dependencies = [
+    "fastapi[standard]>=0.141.1",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "pytest-cov>=7.1.0",
+    "httpx>=0.28.1",
+]
+
+[tool.uv]
+package = false
+
+# No [tool.ruff] here on purpose: this repo has a single Python lint/format
+# standard, defined once in the root pyproject.toml. Ruff walks up the
+# directory tree to find it since this file has no [tool.ruff] section of
+# its own - see `uv run ruff check .` from within this directory.
+
+[tool.pytest.ini_options]
+minversion = "9.0"
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "--import-mode=importlib -s --tb=short"

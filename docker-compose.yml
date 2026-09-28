@@ -30,3 +30,29 @@ services:
   #  <<: *common-opts
   #  command: >
   #    /bin/bash -c "python -m readme_list"
+
+  api:
+    build:
+      context: ./webapp/api
+    image: pihole-lists-api
+    command: uv run uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./lists:/app/lists:rw
+      - ./webapp/api/app:/app/app:rw
+
+  web:
+    build:
+      context: ./webapp/web
+    image: pihole-lists-web
+    ports:
+      - "8098:5173"
+    environment:
+      - VITE_API_BASE_URL=http://localhost:8000/api
+    volumes:
+      - ./webapp/web/src:/app/src:rw
+      - ./webapp/web/index.html:/app/index.html:rw
+      - ./webapp/web/vite.config.js:/app/vite.config.js:rw
+    depends_on:
+      - api

@@ -93,6 +93,26 @@ docker-compose build
 docker-compose run cleanup
 ```
 
+## Web UI (local list management)
+
+A local API + web UI let you list, add, and remove lists and entries in
+`lists/` without touching the files by hand:
+
+```sh
+docker compose up api web
+```
+
+- API (FastAPI): <http://localhost:8000> (docs at `/docs`)
+- Web (Vue): <http://localhost:8098>
+
+![Web UI: sidebar of lists with entry counts, search box, and a paginated list of domains](webapp/web/docs/screenshot.png)
+
+Both run with hot reload out of the box - editing `webapp/api/app/` or
+`webapp/web/src/` picks up live, no rebuild needed. This is a local admin
+tool only: there's no authentication, so don't expose these ports beyond
+your own machine/LAN. See `webapp/api/README.md`/`webapp/web/README.md` for
+details.
+
 ## How to contribute to the project
 
 Fork it. Open your own PR with the hosts added and some explanation about why are they being added for us to review. If you are not used to edit these files, just open an issue an we are gonna update ASAP.
