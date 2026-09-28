@@ -10,14 +10,14 @@ dependencies = [
 	"dnspython>=2.8.0",
 	"pyyaml>=6.0.3",
 	"validators>=0.35.0",
-	"requests>=2.32.5",
-	"tldextract>=5.3.1",
+	"requests>=2.34.2",
+	"tldextract>=5.3.2",
 ]
 
 [dependency-groups]
 dev = [
-	"pytest>=9.0.3",
-	"pytest-cov>=7.0.0",
+	"pytest>=9.1.1",
+	"pytest-cov>=7.1.0",
 ]
 
 [tool.uv]
