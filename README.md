@@ -4,7 +4,7 @@
 
 Simplified adlists to complete your local dns server. You will need a software like [Pi-Hole](https://github.com/pi-hole/pi-hole).
 
-| basic (Recommended)      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/basic.txt)       | A starter list that contains malicious, spam, phishing, ads, malware, spam and tracking                        |
+| basic (Recommended) | [basic.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/basic.txt) | A starter list that contains malicious, spam, phishing, ads, malware and tracking hosts |
 
 ## Community
 
@@ -24,65 +24,72 @@ I strongly recommend that you import and keep these lists as an add-on. Don't wo
 
 ## Ready-to-use list
 
-| List        | Link                                                                                               | Description                                            |
-| ----------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| adobe       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/adobe.txt)       | Adobe Telemetry                                        |
-| amp         | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/amp.txt)         | Block AMP pages with this list                         |
-| crypto      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/crypto.txt)      | Crypto / cryptojacking based sites                     |
-| dating      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/dating.txt)      | Known sites about dating                               |
-| drugs       | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/drugs.txt)       | RE sites that deal with illegal drugs                  |
-| facebook    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/facebook.txt)    | Block FB and FB related / owned services               |
-| fakenews    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/fakenews.txt)    | Known sites that promote fake news                     |
-| intelbras   | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/intelbras.txt)   | Intelbras service & events tracking                    |
-| gambling    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/gambling.txt)    | All gambling based site legit and illegal              |
-| microsoft   | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/microsoft.txt)   | General Microsoft reladted hosts                       |
-| piracy      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/piracy.txt)      | Knows sites that allow for illegal downloads           |
-| porn        | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/porn.txt)        | Porn or sites that promote porn                        |
-| redirect    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/redirect.txt)    | Sites that redirect your from your intended site       |
-| smart-tv    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/smart-tv.txt)    | Smart TV call home and ads                             |
-| social      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/social.txt)      | All the most popular social networks                   |
-| tiktok      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/tiktok.txt)      | Copy and pasted into your device                       |
-| torrent     | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/torrent.txt)     | Torrent directory                                      |
-| vaping      | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/vaping.txt)      | User requested list that blocks sites promoting vaping |
-| whatsapp    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/whatsapp.txt)    | User requested list that blocks only WhatsApp          |
-| x           | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/x.txt)           | User requested list that blocks only X / Twitter       |
-| youtube     | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/lists/youtube.txt)     | User requested list that blocks only Youtube           |
+| List                 | Link                                                                                                                           | Description                                                        |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------ |
+| adobe                | [adobe.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/adobe.txt)                               | Adobe telemetry                                                    |
+| amp                  | [amp.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/amp.txt)                                   | Block AMP pages with this list                                     |
+| crypto               | [crypto.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/crypto.txt)                             | Crypto / cryptojacking based sites                                 |
+| dating               | [dating.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/dating.txt)                             | Known sites about dating                                           |
+| developers-whitelist | [developers-whitelist.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/developers-whitelist.txt) | Allowlist for developer-tooling hosts that should never be blocked |
+| drugs                | [drugs.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/drugs.txt)                               | Sites that deal with illegal drugs                                 |
+| facebook             | [facebook.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/facebook.txt)                         | Block Facebook and Facebook-related/owned services                 |
+| fakenews             | [fakenews.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/fakenews.txt)                         | Known sites that promote fake news                                 |
+| gambling             | [gambling.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/gambling.txt)                         | All gambling-based sites, legit and illegal                        |
+| intelbras            | [intelbras.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/intelbras.txt)                       | Intelbras service and event tracking                               |
+| microsoft            | [microsoft.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/microsoft.txt)                       | General Microsoft-related hosts                                    |
+| piracy               | [piracy.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/piracy.txt)                             | Known sites that allow illegal downloads                           |
+| porn                 | [porn.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/porn.txt)                                 | Porn or sites that promote porn                                    |
+| redirect             | [redirect.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/redirect.txt)                         | Sites that redirect you away from your intended site               |
+| smart-tv             | [smart-tv.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/smart-tv.txt)                         | Smart TV call-home and ads                                         |
+| social               | [social.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/social.txt)                             | All the most popular social networks                               |
+| tiktok               | [tiktok.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/tiktok.txt)                             | Blocks TikTok                                                      |
+| torrent              | [torrent.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/torrent.txt)                           | Torrent trackers and directories                                   |
+| tracking             | [tracking.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/tracking.txt)                         | General analytics and tracking hosts                               |
+| vaping               | [vaping.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/vaping.txt)                             | User-requested list that blocks sites promoting vaping             |
+| whatsapp             | [whatsapp.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/whatsapp.txt)                         | User-requested list that blocks only WhatsApp                      |
+| x                    | [x.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/x.txt)                                       | User-requested list that blocks only X / Twitter                   |
+| youtube              | [youtube.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/youtube.txt)                           | User-requested list that blocks only YouTube                       |
 
 ## External lists
 
-| List                                                                                                                                     |
-| ------------------ | ------------------------------------------------------------------------------------------------------------------- |
-| Adaway             | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/adaway_hosts.txt)              |
-| Nolovia            | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/nolovia_hosts.txt)             |
-| Openshift          | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/openphish_hosts.txt)           |
-| Someonewhocares    | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/someonewhocares_hosts.txt)     |
-| Spam404            | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/Spam404_hosts.txt)             |
-| stevenblack        | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/stevenblack_hosts.txt)         |
-| yoyo               | [Link](https://raw.githubusercontent.com/dcotecnologia/pi-hole-lists/master/imported/yoyo_hosts.txt)                |
+| List            | Link                                                                                                                                |
+| --------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Adaway          | [adaway_hosts.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/imported/adaway_hosts.txt)                   |
+| Nolovia         | [nolovia_hosts.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/imported/nolovia_hosts.txt)                 |
+| Openphish       | [openphish_hosts.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/imported/openphish_hosts.txt)             |
+| Someonewhocares | [someonewhocares_hosts.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/imported/someonewhocares_hosts.txt) |
+| Spam404         | [Spam404_hosts.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/imported/Spam404_hosts.txt)                 |
+| stevenblack     | [stevenblack_hosts.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/imported/stevenblack_hosts.txt)         |
+| yoyo            | [yoyo_hosts.txt](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/imported/yoyo_hosts.txt)                       |
 
 ## How to generate a compiled list
 
-Create a docker image:
+Install dependencies and combine the curated lists in `lists/` into every possible
+combination under `src/out/`:
+
+```sh
+uv sync
+make compile
+```
+
+Restrict which lists are combined with the `LISTS` env var:
+
+```sh
+LISTS=porn,ads_malware make compile
+```
+
+Leave `LISTS` unset to combine every list in `lists/`.
+
+To clean up the lists (dedupe entries and drop invalid domains), either run it locally:
+
+```sh
+make cleanup
+```
+
+or inside Docker, without a local Python/uv setup:
 
 ```sh
 docker-compose build
-```
-
-Run the program with your preferred lists:
-
-```sh
-LISTS=porn,ads_malware docker-compose run build
-```
-
-Leave the variable `LISTS` to get all the hosts builded:
-
-```sh
-docker-compose run build
-```
-
-To cleanup the lists (removing duplicated entries, etc):
-
-```sh
 docker-compose run cleanup
 ```
 
@@ -92,12 +99,12 @@ Fork it. Open your own PR with the hosts added and some explanation about why ar
 
 **Please do not directly email any committers with questions or problems.** A community is best served when discussions are held in public.
 
-Searching the [issues](https://github.com/dcotecnologia/pi-hole-lists/issues) for your problem is also a good idea.
+Searching the [issues](https://github.com/dcotecnologia/pihole-lists/issues) for your problem is also a good idea.
 
 ## Contributing
 
-- Check out the latest master to make sure the feature hasn"t been implemented or the bug hasn't been fixed yet;
-- Check out the issue tracker to make sure someone already hasn"t requested it and/or contributed it;
+- Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet;
+- Check out the issue tracker to make sure someone hasn't already requested it and/or contributed it;
 - Fork the project;
 - Start a feature/bugfix branch;
 - Commit and push until you are happy with your contribution;
