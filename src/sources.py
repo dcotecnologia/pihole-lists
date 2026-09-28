@@ -1,3 +1,10 @@
+"""Registry of third-party hosts/domain-list feeds consumed by `import.py`.
+
+Each key is the short name used for the output file (`imported/<name>_hosts.txt`); each
+value is the feed's raw URL. Add a new feed here, with a one-line comment describing
+what it blocks, rather than hardcoding a URL elsewhere.
+"""
+
 SOURCES = {
     # Adobe / Omniture tracking domains
     "add.2o7Net": "https://raw.githubusercontent.com/FadeMind/hosts.extras/master/add.2o7Net/hosts",

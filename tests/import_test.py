@@ -57,7 +57,7 @@ def test_import_main_creates_output(tmp_path, monkeypatch):
 
     monkeypatch.setattr(
         import_mod2,
-        "logging",
+        "logger",
         types.SimpleNamespace(info=fake_info, error=fake_error),
     )
     monkeypatch.setattr(import_mod2, "SOURCES", {"test": f"file://{test_source}"})
@@ -102,7 +102,7 @@ def test_import_main_logs_error_on_non_200(tmp_path, monkeypatch):
 
     monkeypatch.setattr(
         import_mod2,
-        "logging",
+        "logger",
         types.SimpleNamespace(info=fake_info, error=fake_error),
     )
     monkeypatch.setattr(import_mod2, "SOURCES", {"fail": f"file://{test_source}"})
@@ -134,7 +134,7 @@ def test_import_main_logs_error_on_exception(tmp_path, monkeypatch):
 
     monkeypatch.setattr(
         import_mod2,
-        "logging",
+        "logger",
         types.SimpleNamespace(info=fake_info, error=fake_error),
     )
     monkeypatch.setattr(import_mod2, "SOURCES", {"error": f"file://{test_source}"})
@@ -172,7 +172,7 @@ def test_import_main_logs_info_when_no_new_hosts(tmp_path, monkeypatch):
 
     monkeypatch.setattr(
         import_mod2,
-        "logging",
+        "logger",
         types.SimpleNamespace(info=fake_info, error=fake_error),
     )
     monkeypatch.setattr(import_mod2, "SOURCES", {"test": f"file://{test_source}"})

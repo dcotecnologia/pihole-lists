@@ -1,17 +1,28 @@
-import os
+"""Print a markdown table of curated lists, for pasting into README.md.
+
+Usage: `make readme` (or `uv run python src/readme_list.py`).
+"""
+
+from common import get_filenames_without_extension
+from settings import LISTS_DIR, RAW_URL_TEMPLATE
 
 
-def get_filenames_without_extension(directory):
-    """Returns a list of filenames (without extensions) from a given directory."""
-    return [os.path.splitext(filename)[0] for filename in os.listdir(directory) if os.path.isfile(os.path.join(directory, filename))]
+def main():
+    """Prints the markdown table header and one row per curated list.
+
+    Reads the list names from `lists/` and prints a `| List | Link |` table row for
+    each, sorted alphabetically, for pasting into `README.md`'s "Ready-to-use list"
+    section.
+    """
+    adlists = sorted(get_filenames_without_extension(LISTS_DIR))
+
+    print("| List  | Description                                                                                  | Link |")
+    print("| ----- | -------------------------------------------------------------------------------------------- | ---- |")
+
+    for list_name in adlists:
+        url = RAW_URL_TEMPLATE.format(list_name=list_name)
+        print(f"| {list_name} | [{list_name}.txt]({url}) |")
 
 
-ADLISTS = sorted(get_filenames_without_extension("lists"))
-
-# Header for the markdown table
-print("| List  | Description                                                                                  | Link |")
-print("| ----- | -------------------------------------------------------------------------------------------- | ---- |")
-
-# Generate and print each row of the table
-for list_name in ADLISTS:
-    print(f"| {list_name} | [Link](https://raw.githubusercontent.com/dcotecnologia/pihole-lists/master/lists/{list_name}.txt) |")
+if __name__ == "__main__":
+    main()
