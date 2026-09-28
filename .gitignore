@@ -140,3 +140,8 @@ lists/test_hosts.txt
 log.txt
 imported/*
 cache
+
+# IA garbage
+AGENTS.md
+CLAUDE.md
+.claude
