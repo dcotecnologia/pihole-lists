@@ -11,7 +11,8 @@ jobs:
   Deploying:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v7
+
       - name: Set environment variables
         id: vars
         run: |
@@ -27,7 +28,7 @@ jobs:
           echo "project_version=${PROJECT_VERSION}" >> "$GITHUB_OUTPUT"
       - name: Get Changelog Entry
         id: changelog_reader
-        uses: mindsers/changelog-reader-action@master
+        uses: mindsers/changelog-reader-action@v2
         with:
           validation_depth: 10
           version: ${{ steps.vars.outputs.project_version }}
@@ -43,7 +44,7 @@ jobs:
           allowUpdates: true
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Purge old cache
-        uses: MyAlbum/purge-cache@master
+        uses: MyAlbum/purge-cache@v3
         with:
           debug: true # Purge caches by their created time (default)
           max-age: 604800 # Leave only caches accessed in the last 7 days (default)
