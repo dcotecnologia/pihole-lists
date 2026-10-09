@@ -772,6 +772,8 @@
 0.0.0.0 baowin.net
 0.0.0.0 barbadoscasino.com
 0.0.0.0 batball11.com
+0.0.0.0 bateu.bet.br
+0.0.0.0 bateubet.com
 0.0.0.0 bay789.vin
 0.0.0.0 bayvip.biz
 0.0.0.0 bayvip.tv
@@ -811,6 +813,7 @@
 0.0.0.0 bet2earn.net
 0.0.0.0 bet3000.com
 0.0.0.0 bet33.com
+0.0.0.0 bet365.bet.br
 0.0.0.0 bet365.com
 0.0.0.0 bet365.es
 0.0.0.0 bet52.vin
@@ -833,6 +836,7 @@
 0.0.0.0 betaland.com
 0.0.0.0 betamerica.com
 0.0.0.0 betandclick.com
+0.0.0.0 betano.bet.br
 0.0.0.0 betano.bg
 0.0.0.0 betano.ca
 0.0.0.0 betano.com
@@ -843,6 +847,8 @@
 0.0.0.0 betanysports.eu
 0.0.0.0 betbanh88.com
 0.0.0.0 betbanks.com
+0.0.0.0 betboom.bet.br
+0.0.0.0 betboom.com
 0.0.0.0 betboro.com
 0.0.0.0 betbright.com
 0.0.0.0 betbuckeyesports.com
@@ -916,6 +922,7 @@
 0.0.0.0 betmotion.com
 0.0.0.0 betmyline.com
 0.0.0.0 betn1.com
+0.0.0.0 betnacional.bet.br
 0.0.0.0 betnacional.com
 0.0.0.0 betngo.com
 0.0.0.0 betondunhill.com
@@ -1130,6 +1137,8 @@
 0.0.0.0 br.betano.com
 0.0.0.0 br.netbet.com
 0.0.0.0 br.novibet.com
+0.0.0.0 br4.bet.br
+0.0.0.0 br4bet.com
 0.0.0.0 brazino777.com
 0.0.0.0 britsbingo.co.uk
 0.0.0.0 browncowbingo.com
@@ -1189,6 +1198,7 @@
 0.0.0.0 carbonsports.ag
 0.0.0.0 cardbet.com
 0.0.0.0 caribsports.com
+0.0.0.0 casadeapostas.bet.br
 0.0.0.0 casadeapostas.com
 0.0.0.0 cashier2.188thethao.com
 0.0.0.0 cashiopeia.com
@@ -1707,10 +1717,15 @@
 0.0.0.0 esball.net
 0.0.0.0 espacejeux.com
 0.0.0.0 espnsportsbook.com
+0.0.0.0 esportesdasorte.bet.br
+0.0.0.0 esportesdasorte.com
+0.0.0.0 esportiva.bet
+0.0.0.0 esportiva.bet.br
 0.0.0.0 esports.gtorb.com
 0.0.0.0 esportsbetting.com
 0.0.0.0 esportscasino.com
 0.0.0.0 estorilsolcasinos.pt
+0.0.0.0 estrelabet.bet.br
 0.0.0.0 estrelabet.com
 0.0.0.0 etherdice.io
 0.0.0.0 etipos.sk
@@ -1754,6 +1769,7 @@
 0.0.0.0 f1.playv8.vip
 0.0.0.0 f1.taiv8.com
 0.0.0.0 f1.taiv8.top
+0.0.0.0 f12.bet.br
 0.0.0.0 f2.five88.com
 0.0.0.0 f2.macau.club
 0.0.0.0 f2.macauclub.fun
@@ -3783,6 +3799,8 @@
 0.0.0.0 krugerbets.com
 0.0.0.0 ksbingo.com
 0.0.0.0 kt88.pro
+0.0.0.0 kto.bet.br
+0.0.0.0 kto.com
 0.0.0.0 ktokto.mobi
 0.0.0.0 ktoviet.com
 0.0.0.0 ktovn.com
@@ -3937,6 +3955,8 @@
 0.0.0.0 loto188az.com
 0.0.0.0 loto188vi.com
 0.0.0.0 loto66.com
+0.0.0.0 lotogreen.bet.br
+0.0.0.0 lotogreen.com
 0.0.0.0 lotoquebec.com
 0.0.0.0 lotterien.at
 0.0.0.0 lottery.ie
@@ -4029,6 +4049,8 @@
 0.0.0.0 lutrija.co.me
 0.0.0.0 lutrija.hr
 0.0.0.0 lutrija.rs
+0.0.0.0 luva.bet
+0.0.0.0 luva.bet.br
 0.0.0.0 lux39.club
 0.0.0.0 lux888.club
 0.0.0.0 luxbet.com
@@ -4339,6 +4361,7 @@
 0.0.0.0 mu92.com
 0.0.0.0 mu922.com
 0.0.0.0 mu929.com
+0.0.0.0 multi.bet.br
 0.0.0.0 multilotto.com
 0.0.0.0 multipasko.pl
 0.0.0.0 mvb88.com
@@ -4454,6 +4477,7 @@
 0.0.0.0 nossaaposta.pt
 0.0.0.0 nostrabet.com
 0.0.0.0 nostragamus.in
+0.0.0.0 novibet.bet.br
 0.0.0.0 novibet.com
 0.0.0.0 nowbetvn.com
 0.0.0.0 noxwin.com
@@ -4487,6 +4511,7 @@
 0.0.0.0 olybet.lt
 0.0.0.0 olympic24.com
 0.0.0.0 omniacasino.com
+0.0.0.0 onabet.com
 0.0.0.0 onbet111.com
 0.0.0.0 onbet2.com
 0.0.0.0 onbet3.com
@@ -5051,6 +5076,7 @@
 0.0.0.0 sport9.info
 0.0.0.0 sportbet.com
 0.0.0.0 sportfanatik.com
+0.0.0.0 sportingbet.bet.br
 0.0.0.0 sportingbet.com
 0.0.0.0 sportingbet.com.au
 0.0.0.0 sportingindex.com
@@ -5104,6 +5130,7 @@
 0.0.0.0 st66606.com
 0.0.0.0 st666win.us
 0.0.0.0 staatsloterij.nederlandseloterij.nl
+0.0.0.0 stake.bet.br
 0.0.0.0 stake.com
 0.0.0.0 stakes.com
 0.0.0.0 stanjames.com
@@ -5153,6 +5180,7 @@
 0.0.0.0 supabets.com.gh
 0.0.0.0 super88.club
 0.0.0.0 super8casino.com
+0.0.0.0 superbet.bet.br
 0.0.0.0 superbet.com
 0.0.0.0 superbet.pl
 0.0.0.0 superlenny.com
@@ -5578,6 +5606,7 @@
 0.0.0.0 vaorikvip.net
 0.0.0.0 vb211.com
 0.0.0.0 vb777.co
+0.0.0.0 vbet.bet.br
 0.0.0.0 vbet.com
 0.0.0.0 vbet88.fun
 0.0.0.0 vebo.bet
@@ -6260,6 +6289,7 @@
 0.0.0.0 www.bet2win.ag
 0.0.0.0 www.bet3000.com
 0.0.0.0 www.bet33.com
+0.0.0.0 www.bet365.bet.br
 0.0.0.0 www.bet365.com
 0.0.0.0 www.bet66.com
 0.0.0.0 www.bet7days.com
