@@ -1,17 +1,17 @@
 [project]
 name = "pihole-lists"
-version = "1.4.0"
+version = "1.4.1"
 description = "Adlists to complete your pi-hole server"
 authors = [{ name = "Danilo Carolino", email = "danilogcarolino@gmail.com" }]
 license = { text = "MIT" }
 readme = "README.md"
 requires-python = ">=3.12,<4.0"
 dependencies = [
-	"dnspython>=2.8.0",
+	"dnspython>=2.9.0",
 	"pyyaml>=6.0.3",
 	"validators>=0.35.0",
 	"requests>=2.34.2",
-	"tldextract>=5.3.2",
+	"tldextract>=5.4.0",
 ]
 
 [dependency-groups]

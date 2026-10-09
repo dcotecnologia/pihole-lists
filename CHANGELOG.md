@@ -5,6 +5,15 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 
 ## [Unreleased]
 
+## [1.4.1] - 2026-10-09
+
+### Added
+
+- Added 30 Brazilian betting domains (bet365, Betano, Superbet, Betnacional, BetBoom,
+  EstrelaBet, KTO, BR4Bet, VBet, F12 bet, Novibet, Stake, BateuBet, Luva Bet, Esportes da Sorte,
+  Sportingbet, Lotogreen, Multibet, Esportiva Bet, Casa de Apostas, Onabet) to
+  `lists/gambling.txt` by @danilogco
+
 ## [1.4.0] - 2026-09-28
 
 ### Added
